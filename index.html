@@ -76,7 +76,7 @@
 <div class="section level2">
 <h2 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
 </h2>
-<p>The ReportGenerator R package creates automatic study reports from DARWIN EU® research. It includes a Shiny app where the user can select a specific type of study according to the Complete Catalogue of Standard Data Analyses (D1.3.8.2), and what tables/figures to produce out of a set menu of outputs.</p>
+<p><code>ReportGenerator</code> creates automatic study reports from DARWIN EU® research. It is a Shiny app with an interactive menu where the user can select figures and tables from the Complete Catalogue of Standard Data Analyses.</p>
 </div>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
@@ -85,13 +85,13 @@
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"remotes"</span><span class="op">)</span></span>
 <span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"darwin-eu-dev/ReportGenerator"</span><span class="op">)</span></span></code></pre></div>
-<p>To test the package, generate first the mock data with <code><a href="reference/generateMockData.html">generateMockData()</a></code>. It will create a “Results” folder in the working directory that contains IncidencePrevalence data in csv and zip format.</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span> <span class="fu"><a href="reference/generateMockData.html">generateMockData</a></span><span class="op">(</span>databaseName <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"Synthea"</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
 <p><code><a href="reference/reportGenerator.html">reportGenerator()</a></code> takes as an input zip or csv files with results from IncidencePrevalence. To launch the Shiny app just type in the console:</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="reference/reportGenerator.html">reportGenerator</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">ReportGenerator</span><span class="fu">::</span><span class="fu"><a href="reference/reportGenerator.html">reportGenerator</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
 <p>Alternatively, you can access to an <a href="https://data-dev.darwin-eu.org/content/5f2cf055-690c-4a28-9567-a1986eaafe8e/" class="external-link">online version here</a>.</p>
+<p>Load your own results from the <a href="https://darwin-eu.github.io/IncidencePrevalence/" class="external-link">IncidencePrevalence</a> package. ReportGenerator accepts data from the latest version of IncidencePrevalence and offers limited support for previous versions. To test the package, the user can generate some mock data with <code><a href="reference/generateMockData.html">ReportGenerator::generateMockData()</a></code>, which will create a “Results” folder with data in zip format.</p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">ReportGenerator</span><span class="fu">::</span><span class="fu"><a href="reference/generateMockData.html">generateMockData</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="license">
