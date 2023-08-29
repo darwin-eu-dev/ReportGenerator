@@ -46,9 +46,6 @@
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/createSunburstPlot.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/denominatorExtraction.html</loc>
-  </url>
-  <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/depth.html</loc>
   </url>
   <url>
@@ -64,58 +61,16 @@
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/groupInfrequentCombinations.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/incidenceExtraction.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/incidenceExtractionToRDS.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/incidenceRatePerYearColorByAgePlot.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/incidenceRatePerYearFacetByDBAgeGroupPlot.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/incidenceRatePerYearGroupBySexPlot.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/incidenceRatePerYearPlot.html</loc>
-  </url>
-  <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/increaseFacetStripSize.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/index.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/joinZipFiles.html</loc>
-  </url>
-  <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/outputSankeyDiagram.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/prevalenceExtraction.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/prevalenceExtractionToRDS.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/prevalenceRatePerYearFacetByDBAgeGroupPlot.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/prevalenceRatePerYearFacetByDBOutcomePlot.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/prevalenceRatePerYearGroupBySexPlot.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/prevalenceRatePerYearPlot.html</loc>
-  </url>
-  <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/reportGenerator.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/resultsDashboard.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/saveAsFile.html</loc>
@@ -149,9 +104,6 @@
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/transformCSVtoJSON.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/variablesConfigWriter.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/variablesConfigYaml.html</loc>
