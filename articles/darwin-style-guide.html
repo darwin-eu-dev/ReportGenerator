@@ -83,12 +83,11 @@
 <div class="section level3">
 <h3 id="introduction">INTRODUCTION<a class="anchor" aria-label="anchor" href="#introduction"></a>
 </h3>
-<p>ReportGenerator aims to automate study reports, initially for
-Darwin’s Off-the-Shelf studies. Those reports should be based on the
-requirements of the Complete Catalogue of Standard Data Analyses. In
-this article, we show in more detail every table and figure that
-ReportGenerator can include in a Word document, according to the
-guidelines established in the Darwin Style Guide.</p>
+<p>ReportGenerator automate study reports for Darwin’s Off-the-Shelf
+studies. Those reports should are based on thhe Complete Catalogue of
+Standard Data Analyses. In this guide, we show in more detail and how to
+call every table and figure that ReportGenerator includes when
+generating a report.</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://darwin-eu-dev.github.io/ReportGenerator/">ReportGenerator</a></span><span class="op">)</span></span></code></pre></div>
 </div>
@@ -369,7 +368,7 @@ group, etc.</p>
 </div>
 </div>
 <div class="section level3">
-<h3 id="figure-1ab-incidence-over-calendar-time-overall">Figure 1ab Incidence over calendar time overall<a class="anchor" aria-label="anchor" href="#figure-1ab-incidence-over-calendar-time-overall"></a>
+<h3 id="figure-1-incidence-over-calendar-time-overall">Figure 1 Incidence over calendar time overall<a class="anchor" aria-label="anchor" href="#figure-1-incidence-over-calendar-time-overall"></a>
 </h3>
 <div class="section level5">
 <h5 id="complete-catalogue-of-standard-data-analyses-1">Complete Catalogue of Standard Data Analyses:<a class="anchor" aria-label="anchor" href="#complete-catalogue-of-standard-data-analyses-1"></a>
@@ -420,22 +419,26 @@ visualisations of interest through a set of options. The user can select
 either a facet by outcome or database. ReportGenerator makes a call to
 the functions <code>plotIncidence()</code> from the IncidencePrevalence
 package to generate the figures.</p>
-<p>Option A – facet by outcome, lines per database</p>
+<p>Option A – facet by outcome</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">IncidencePrevalence</span><span class="fu">::</span><span class="fu"><a href="https://darwin-eu.github.io/IncidencePrevalence/reference/plotIncidence.html" class="external-link">plotIncidence</a></span><span class="op">(</span><span class="va">incidence_estimates</span>,</span>
 <span>                                   facet <span class="op">=</span> <span class="st">'outcome_cohort_name'</span>, </span>
 <span>                                   colour <span class="op">=</span> <span class="st">'denominator_sex'</span><span class="op">)</span></span></code></pre></div>
 <p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-10-1.png" width="700"></p>
-<p>Option B – facet by database, lines per database</p>
+<p>Option B – facet by database</p>
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">IncidencePrevalence</span><span class="fu">::</span><span class="fu"><a href="https://darwin-eu.github.io/IncidencePrevalence/reference/plotIncidence.html" class="external-link">plotIncidence</a></span><span class="op">(</span><span class="va">incidence_estimates</span>,</span>
 <span>                                   facet <span class="op">=</span> <span class="st">'database_name'</span>,</span>
 <span>                                   colour <span class="op">=</span> <span class="st">'denominator_sex'</span><span class="op">)</span></span></code></pre></div>
 <p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-11-1.png" width="700"></p>
+<p>Option C – Facet by sex, outcome and database (IN PROGRESS)</p>
+<p><img src="reference/figures/FigureIncSexOutDB.png"><!-- --></p>
+<p>Option D – Facet by sex, database and database (IN PROGRESS)</p>
+<p><img src="reference/figures/FigureIncSexDBOut.png"><!-- --></p>
 </div>
 </div>
 <div class="section level3">
-<h3 id="figure-2a-incidence-over-calendar-time-by-age">Figure 2a Incidence over calendar time by age<a class="anchor" aria-label="anchor" href="#figure-2a-incidence-over-calendar-time-by-age"></a>
+<h3 id="figure-2b-incidence-over-calendar-time-by-age">Figure 2b Incidence over calendar time by age<a class="anchor" aria-label="anchor" href="#figure-2b-incidence-over-calendar-time-by-age"></a>
 </h3>
 <div class="section level5">
 <h5 id="complete-catalogue-of-standard-data-analyses-3">Complete Catalogue of Standard Data Analyses:<a class="anchor" aria-label="anchor" href="#complete-catalogue-of-standard-data-analyses-3"></a>
@@ -458,17 +461,26 @@ package to generate the figures.</p>
 <code class="sourceCode R"><span><span class="fu">IncidencePrevalence</span><span class="fu">::</span><span class="fu"><a href="https://darwin-eu.github.io/IncidencePrevalence/reference/plotIncidence.html" class="external-link">plotIncidence</a></span><span class="op">(</span><span class="va">incidence_estimates</span>,</span>
 <span>                                   facet <span class="op">=</span> <span class="st">'outcome_cohort_name'</span>, </span>
 <span>                                   colour <span class="op">=</span> <span class="st">'denominator_age_group'</span><span class="op">)</span></span></code></pre></div>
-<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-13-1.png" width="700"></p>
+<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-15-1.png" width="700"></p>
 <p>Option B – facet by database, lines per database</p>
 <div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">IncidencePrevalence</span><span class="fu">::</span><span class="fu"><a href="https://darwin-eu.github.io/IncidencePrevalence/reference/plotIncidence.html" class="external-link">plotIncidence</a></span><span class="op">(</span><span class="va">incidence_estimates</span>,</span>
 <span>                                   facet <span class="op">=</span> <span class="st">'database_name'</span>,</span>
 <span>                                   colour <span class="op">=</span> <span class="st">'denominator_age_group'</span><span class="op">)</span></span></code></pre></div>
-<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-14-1.png" width="700"></p>
+<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-16-1.png" width="700"></p>
+<p>Option C – facet by outcome and database, lines per age group (IN
+PROGRESS)</p>
+<ul>
+<li>Lines should be points with 95% CI.</li>
+</ul>
+<p><img src="reference/figures/Figure2cAgeGroup.png"><!-- --></p>
+<p>Option D – facet by database and outcome, lines per database (IN
+PROGRESS)</p>
+<p><img src="reference/figures/Figure2cbAgeGroup.png"><!-- --></p>
 </div>
 </div>
 <div class="section level3">
-<h3 id="figure-1ab-prevalence-over-calendar-time-overall">Figure 1ab Prevalence over calendar time overall<a class="anchor" aria-label="anchor" href="#figure-1ab-prevalence-over-calendar-time-overall"></a>
+<h3 id="figure-3-prevalence-over-calendar-time-overall">Figure 3 Prevalence over calendar time overall<a class="anchor" aria-label="anchor" href="#figure-3-prevalence-over-calendar-time-overall"></a>
 </h3>
 <div class="section level5">
 <h5 id="complete-catalogue-of-standard-data-analyses-4">Complete Catalogue of Standard Data Analyses:<a class="anchor" aria-label="anchor" href="#complete-catalogue-of-standard-data-analyses-4"></a>
@@ -491,17 +503,17 @@ package to generate the figures.</p>
 <code class="sourceCode R"><span><span class="fu">IncidencePrevalence</span><span class="fu">::</span><span class="fu"><a href="https://darwin-eu.github.io/IncidencePrevalence/reference/plotPrevalence.html" class="external-link">plotPrevalence</a></span><span class="op">(</span><span class="va">prevalence_estimates</span>, </span>
 <span>                                   facet <span class="op">=</span> <span class="st">'outcome_cohort_name'</span>,</span>
 <span>                                   colour <span class="op">=</span> <span class="st">'database_name'</span><span class="op">)</span></span></code></pre></div>
-<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-16-1.png" width="700"></p>
+<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-20-1.png" width="700"></p>
 <p>Option B – facet by database, lines per database</p>
 <div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">IncidencePrevalence</span><span class="fu">::</span><span class="fu"><a href="https://darwin-eu.github.io/IncidencePrevalence/reference/plotPrevalence.html" class="external-link">plotPrevalence</a></span><span class="op">(</span><span class="va">prevalence_estimates</span>,</span>
 <span>                                   facet <span class="op">=</span> <span class="st">'database_name'</span>,</span>
 <span>                                   colour <span class="op">=</span> <span class="st">'outcome_cohort_name'</span><span class="op">)</span></span></code></pre></div>
-<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-17-1.png" width="700"></p>
+<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-21-1.png" width="700"></p>
 </div>
 </div>
 <div class="section level3">
-<h3 id="figure-2a-incidence-over-calendar-time-by-sex-1">Figure 2a Incidence over calendar time by sex<a class="anchor" aria-label="anchor" href="#figure-2a-incidence-over-calendar-time-by-sex-1"></a>
+<h3 id="figure-4-prevalence-over-calendar-time-by-sex">Figure 4 Prevalence over calendar time by sex<a class="anchor" aria-label="anchor" href="#figure-4-prevalence-over-calendar-time-by-sex"></a>
 </h3>
 <div class="section level5">
 <h5 id="complete-catalogue-of-standard-data-analyses-5">Complete Catalogue of Standard Data Analyses:<a class="anchor" aria-label="anchor" href="#complete-catalogue-of-standard-data-analyses-5"></a>
@@ -524,13 +536,19 @@ package to generate the figures.</p>
 <code class="sourceCode R"><span><span class="fu">IncidencePrevalence</span><span class="fu">::</span><span class="fu"><a href="https://darwin-eu.github.io/IncidencePrevalence/reference/plotPrevalence.html" class="external-link">plotPrevalence</a></span><span class="op">(</span><span class="va">prevalence_estimates</span>,</span>
 <span>                                   facet <span class="op">=</span> <span class="st">'outcome_cohort_name'</span>, </span>
 <span>                                   colour <span class="op">=</span> <span class="st">'denominator_sex'</span><span class="op">)</span></span></code></pre></div>
-<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-19-1.png" width="700"></p>
+<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-23-1.png" width="700"></p>
 <p>Option B – facet by database, lines per database</p>
 <div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">IncidencePrevalence</span><span class="fu">::</span><span class="fu"><a href="https://darwin-eu.github.io/IncidencePrevalence/reference/plotPrevalence.html" class="external-link">plotPrevalence</a></span><span class="op">(</span><span class="va">prevalence_estimates</span>,</span>
 <span>                                   facet <span class="op">=</span> <span class="st">'database_name'</span>,</span>
 <span>                                   colour <span class="op">=</span> <span class="st">'denominator_sex'</span><span class="op">)</span></span></code></pre></div>
-<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-20-1.png" width="700"></p>
+<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-24-1.png" width="700">
+Option C – facet by sex, outcome and database lines per database (IN
+PROGRESS)</p>
+<p><img src="reference/figures/FigureIncSexOutDB.png"><!-- --></p>
+<p>Option D – facet by sex, database and outcome, lines per database (IN
+PROGRESS)</p>
+<p><img src="reference/figures/FigureIncSexDBOut.png"><!-- --></p>
 </div>
 </div>
 <div class="section level3">
@@ -557,13 +575,33 @@ package to generate the figures.</p>
 <code class="sourceCode R"><span><span class="fu">IncidencePrevalence</span><span class="fu">::</span><span class="fu"><a href="https://darwin-eu.github.io/IncidencePrevalence/reference/plotPrevalence.html" class="external-link">plotPrevalence</a></span><span class="op">(</span><span class="va">prevalence_estimates</span>,</span>
 <span>                                   facet <span class="op">=</span> <span class="st">'outcome_cohort_name'</span>, </span>
 <span>                                   colour <span class="op">=</span> <span class="st">'denominator_age_group'</span><span class="op">)</span></span></code></pre></div>
-<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-22-1.png" width="700"></p>
+<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-28-1.png" width="700"></p>
 <p>Option B – facet by database, lines per database</p>
 <div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">IncidencePrevalence</span><span class="fu">::</span><span class="fu"><a href="https://darwin-eu.github.io/IncidencePrevalence/reference/plotPrevalence.html" class="external-link">plotPrevalence</a></span><span class="op">(</span><span class="va">prevalence_estimates</span>,</span>
 <span>                                   facet <span class="op">=</span> <span class="st">'database_name'</span>,</span>
 <span>                                   colour <span class="op">=</span> <span class="st">'denominator_age_group'</span><span class="op">)</span></span></code></pre></div>
-<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-23-1.png" width="700"></p>
+<p><img src="darwin-style-guide_files/figure-html/unnamed-chunk-29-1.png" width="700"></p>
+</div>
+</div>
+<div class="section level3">
+<h3 id="kaplan-meier-in-progress">Kaplan-Meier (IN PROGRESS)<a class="anchor" aria-label="anchor" href="#kaplan-meier-in-progress"></a>
+</h3>
+<div class="section level5">
+<h5 id="complete-catalogue-of-standard-data-analyses-7">Complete Catalogue of Standard Data Analyses:<a class="anchor" aria-label="anchor" href="#complete-catalogue-of-standard-data-analyses-7"></a>
+</h5>
+<p>Kaplan-Meier or Cumulative Incidence Function plots of the
+probability of a pre-specified outcome following index diagnosis of the
+condition of interest.</p>
+</div>
+<div class="section level5">
+<h5 id="general-considerations-7">General considerations:<a class="anchor" aria-label="anchor" href="#general-considerations-7"></a>
+</h5>
+<ul>
+<li>Facet by database – outcome, colour for strata.</li>
+<li>Include confidence intervals.</li>
+</ul>
+<p><img src="reference/figures/kaplanMeyer.png"><!-- --></p>
 </div>
 </div>
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
