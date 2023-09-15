@@ -22,6 +22,9 @@
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/news/index.html</loc>
   </url>
   <url>
+    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/addChild.html</loc>
+  </url>
+  <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/addPreviewItemType.html</loc>
   </url>
   <url>
@@ -46,6 +49,9 @@
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/createSunburstPlot.html</loc>
   </url>
   <url>
+    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/createTreatmentPathways.html</loc>
+  </url>
+  <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/depth.html</loc>
   </url>
   <url>
@@ -67,7 +73,10 @@
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/index.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/outputSankeyDiagram.html</loc>
+    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/joinDatabase.html</loc>
+  </url>
+  <url>
+    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/prepData.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/reportGenerator.html</loc>
@@ -79,13 +88,13 @@
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/stripname.html</loc>
   </url>
   <url>
+    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/table1Inc.html</loc>
+  </url>
+  <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/table1NumPar.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/table1NumParPreview.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/table1SexAge.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/table1aAutText.html</loc>
@@ -101,6 +110,9 @@
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/table5IncSex.html</loc>
+  </url>
+  <url>
+    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/testData.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/transformCSVtoJSON.html</loc>
