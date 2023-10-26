@@ -22,9 +22,6 @@
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/news/index.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/addChild.html</loc>
-  </url>
-  <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/addPreviewItemType.html</loc>
   </url>
   <url>
@@ -34,25 +31,10 @@
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/addPreviewItemTypeSex.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/buildHierarchy.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/createLegend.html</loc>
-  </url>
-  <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/createPreviewMenuTable.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/createPreviewTable.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/createSunburstPlot.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/createTreatmentPathways.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/depth.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/generateMockData.html</loc>
@@ -64,9 +46,6 @@
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/getItemsList.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/groupInfrequentCombinations.html</loc>
-  </url>
-  <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/increaseFacetStripSize.html</loc>
   </url>
   <url>
@@ -76,16 +55,7 @@
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/joinDatabase.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/prepData.html</loc>
-  </url>
-  <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/reportGenerator.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/saveAsFile.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/stripname.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/table1Inc.html</loc>
@@ -113,9 +83,6 @@
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/testData.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/transformCSVtoJSON.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/variablesConfigYaml.html</loc>
