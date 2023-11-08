@@ -31,12 +31,6 @@
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/addPreviewItemTypeSex.html</loc>
   </url>
   <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/createPreviewMenuTable.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/createPreviewTable.html</loc>
-  </url>
-  <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/generateMockData.html</loc>
   </url>
   <url>
@@ -68,9 +62,6 @@
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/table1NumPar.html</loc>
-  </url>
-  <url>
-    <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/table1NumParPreview.html</loc>
   </url>
   <url>
     <loc>https://darwin-eu-dev.github.io/ReportGenerator/reference/table1aAutText.html</loc>
