@@ -14,8 +14,8 @@
 <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="apple-touch-icon-76x76.png">
 <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="apple-touch-icon-60x60.png">
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="deps/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet">
-<script src="deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
+<link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
+<script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Automatic Report Generator of Darwin EU Studies">
 <meta property="og:description" content="Generates automatic reports in Word format from Data Analysis and Real World Interrogation Network (DARWIN EU) study results. Includes a Shiny interface and accepts data from incidence, prevalence, drug utilisation and treatment patterns studies. Creates tables and figures in the report in accordance to the Catalogue of Standard Analyses.">
@@ -85,19 +85,51 @@
 <p>You can install the development version of ReportGenerator like so:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"remotes"</span><span class="op">)</span></span>
-<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"darwin-eu-dev/ReportGenerator"</span><span class="op">)</span></span></code></pre></div>
+<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"darwin-eu-dev/ReportGenerator"</span><span class="op">)</span></span></code></pre></div>
 <p><code><a href="reference/reportGenerator.html">reportGenerator()</a></code> takes as an input zip or csv files with results from IncidencePrevalence. To launch the Shiny app just type in the console:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">ReportGenerator</span><span class="fu">::</span><span class="fu"><a href="reference/reportGenerator.html">reportGenerator</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
 <p>Alternatively, you can access to an <a href="https://data-dev.darwin-eu.org/content/46c367cd-6e29-4382-9d7d-aff8caaa582a/" class="external-link">online version here</a>.</p>
-<p>Load your own results from <a href="https://darwin-eu.github.io/IncidencePrevalence/" class="external-link">IncidencePrevalence</a> or <a href="https://darwin-eu-dev.github.io/TreatmentPatterns/" class="external-link">TreatmentPatterns</a>. ReportGenerator accepts data from the latest version of those DARWIN EU packages, but offers limited support for previous versions. To test the package, the user can generate some mock data with <code><a href="reference/generateMockData.html">ReportGenerator::generateMockData()</a></code>, which will create a “results” folder with IncidencePrevalence data in zip format.</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<p>Load your own results from the <a href="https://darwin-eu.github.io/IncidencePrevalence/" class="external-link">IncidencePrevalence</a> or <a href="https://darwin-eu-dev.github.io/TreatmentPatterns/" class="external-link">TreatmentPatterns</a> packages. ReportGenerator accepts data from the latest versions, but offers limited legacy support.</p>
+<p><code>ReportGenerator()</code> accepts files in ZIP format from multiple data partners, with the following directory structure, or CSV files to visualise individual results.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># IncidencePrevalence ZIP Folders</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  C<span class="sc">:</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="er">|</span><span class="sc">--</span>results_CHUBX.zip</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|</span>       <span class="er">|</span><span class="sc">--</span>incidence_attrition.csv</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|</span>       <span class="er">|</span><span class="sc">--</span>prevalence_attrition.csv</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|</span>       <span class="er">|</span><span class="sc">--</span>incidence_estimates.csv</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|</span>       <span class="er">|</span><span class="sc">--</span>prevalence_estimates.csv</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="er">|</span><span class="sc">--</span>results_CPRD.zip</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|--</span>results_IMASIS.zip</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|--</span>results_IPCI.zip</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># CSV files</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>  C<span class="sc">:</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  <span class="er">|</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>  <span class="er">|</span><span class="sc">--</span>incidence_attrition.csv</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|--</span>prevalence_attrition.csv</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|--</span>incidence_estimates.csv</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|--</span>prevalence_estimates.csv</span></code></pre></div>
+<p>In the same way, the user can load results from TreatmentPatterns in ZIP format, including the metadata file to identify results from each data partner.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Directory TreatmentPatterns</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  C<span class="sc">:</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="er">|</span><span class="sc">--</span>results_CPRD.zip</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|</span>       <span class="er">|</span><span class="sc">--</span>countsAge.csv</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|</span>       <span class="er">|</span><span class="sc">--</span>countsSex.csv</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|</span>       <span class="er">|</span><span class="sc">--</span>metadata.csv</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|</span>       <span class="er">|</span><span class="sc">--</span>summaryStatsTherapyDuraion.csv</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|</span>       <span class="er">|</span><span class="sc">--</span>treatmentPathways.csv</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="er">|</span><span class="sc">--</span>results_IMASIS.zip</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|--</span>results_IPCI.zip</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="sc">|--</span>results_SIDIAP.zip</span></code></pre></div>
+<p>To test the package, the user can generate some mock data with <code><a href="reference/generateMockData.html">ReportGenerator::generateMockData()</a></code>, which will create a “Results” folder with data in zip format.</p>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">ReportGenerator</span><span class="fu">::</span><span class="fu"><a href="reference/generateMockData.html">generateMockData</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
-</div>
-<div class="section level2">
-<h2 id="data-specifications">Data Specifications<a class="anchor" aria-label="anchor" href="#data-specifications"></a>
-</h2>
-<p>To load data into `</p>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="license">
