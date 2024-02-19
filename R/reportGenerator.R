@@ -1215,9 +1215,14 @@ reportGenerator <- function() {
       }
     })
 
-    output$dataReportMenu <- renderDT({
+    output$dataReportMenu <- renderDT(server=FALSE, {
       dataReportFrame <- objectsListPreview()
-      DT::datatable(dataReportFrame, options = list(dom = 't'))
+      DT::datatable(dataReportFrame,
+                    extensions = "RowReorder",
+                    colnames = c(ID = 1),
+                    options = list(dom = 't',
+                                   order = list(list(0, 'asc')),
+                                   rowReorder = TRUE))
     })
 
     # Word report generator
