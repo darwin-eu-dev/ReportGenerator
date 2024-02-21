@@ -42,7 +42,10 @@ reportGenerator <- function() {
                  startExpanded = TRUE),
         tags$br(),
         actionButton('resetData', 'Reset data'),
-        tags$br()
+        tags$br(), tags$br(), tags$br(),
+        shinyjs::useShinyjs(),
+        tags$head(tags$style(".dlStudyDataBtn{ margin-left:15px;margin-right:15px; color:#444 !important; }")),
+        downloadButton("downloadStudyData", "Sample dataset", class = "dlStudyDataBtn")
       )
     ),
     dashboardBody(
@@ -63,12 +66,20 @@ reportGenerator <- function() {
         ),
         tabPanel("Generate report",
                  fluidRow(
-                   column(width = 4,
+                   column(width = 6,
                           h2("Report items"),
                           DTOutput("dataReportMenu"),
                           tags$br(),
-                          downloadButton("generateReport", "Generate Report"),
-                          tags$br()
+                          tags$head(tags$style(".dlReportBtn{ margin-left:15px;margin-right:15px; margin-top:25px; color:#444 !important; }")),
+                          splitLayout(
+                            downloadButton("generateReport", "Generate Report", class = "dlReportBtn"),
+                            downloadButton("saveReportData", "Save report items", class = "dlReportBtn"),
+                            fileInput("loadReportItems",
+                                      "Load report items",
+                                      accept = c(".rds"),
+                                      placeholder = "rds")
+                          ),
+                          div(id = "reportOutput")
                    )
                  )
         )
@@ -134,15 +145,16 @@ reportGenerator <- function() {
       uploadedFiles <- reactiveValues(dataIP = NULL,
                                       dataTP = NULL,
                                       dataPP = NULL)
-      dataReport <- reactiveValues()
       updateTabsetPanel(session, "mainPanel",
                         selected = "Item selection")
       datasetLoadServer("StudyPackage")
+      dataReport$objects <- NULL
+      shinyjs::html("reportOutput", "")
     })
 
     # 2.Assign Data
 
-    dataReport <- reactiveValues()
+    dataReport <- reactiveValues(objects = NULL)
 
     # prevalence_attrition
 
@@ -235,11 +247,10 @@ reportGenerator <- function() {
 
     observeEvent(input$lockTableNumPar, {
       objectChoice <- "Table - Number of participants"
-      chars <- c(0:9, letters, LETTERS)
-      randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "" )
-      dataReport[[randomId]][[objectChoice]][["prevalence_attrition"]] <- prevalenceAttritionCommon()
-      dataReport[[randomId]][[objectChoice]][["incidence_attrition"]] <- incidenceAttritionCommon()
-      dataReport[[randomId]][[objectChoice]][["caption"]] <- input$captionTable1
+      randomId <- getRandomId()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["prevalence_attrition"]] <- prevalenceAttritionCommon()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["incidence_attrition"]] <- incidenceAttritionCommon()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["caption"]] <- input$captionTable1
     })
 
     output$previewTableAttInc <- renderTable({
@@ -254,11 +265,10 @@ reportGenerator <- function() {
     observeEvent(input$lockTableIncAtt, {
       objectChoice <- "Table - Incidence Attrition"
       attritionDataType <- "incidence"
-      chars <- c(0:9, letters, LETTERS)
-      randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "" )
-      dataReport[[randomId]][[objectChoice]][["incidence_attrition"]] <- incidenceAttritionCommon()
-      dataReport[[randomId]][[objectChoice]][["attritionDataType"]] <- attritionDataType
-      dataReport[[randomId]][[objectChoice]][["caption"]] <- input$captionTableInc
+      randomId <- getRandomId()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["incidence_attrition"]] <- incidenceAttritionCommon()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["attritionDataType"]] <- attritionDataType
+      dataReport[["objects"]][[randomId]][[objectChoice]][["caption"]] <- input$captionTableInc
     })
 
     output$previewTableAttPrev <- renderTable({
@@ -273,11 +283,10 @@ reportGenerator <- function() {
     observeEvent(input$lockTablePrevAtt, {
       objectChoice <- "Table - Prevalence Attrition"
       attritionDataType <- "prevalence"
-      chars <- c(0:9, letters, LETTERS)
-      randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "" )
-      dataReport[[randomId]][[objectChoice]][["prevalence_attrition"]] <- prevalenceAttritionCommon()
-      dataReport[[randomId]][[objectChoice]][["attritionDataType"]] <- attritionDataType
-      dataReport[[randomId]][[objectChoice]][["caption"]] <- input$captionTablePrev
+      randomId <- getRandomId()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["prevalence_attrition"]] <- prevalenceAttritionCommon()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["attritionDataType"]] <- attritionDataType
+      dataReport[["objects"]][[randomId]][[objectChoice]][["caption"]] <- input$captionTablePrev
     })
 
     output$previewTableSex <- render_gt({
@@ -291,10 +300,9 @@ reportGenerator <- function() {
 
     observeEvent(input$lockTableSex, {
       objectChoice <- "Table - Number of participants by sex and age group"
-      chars <- c(0:9, letters, LETTERS)
-      randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "" )
-      dataReport[[randomId]][[objectChoice]][["incidence_estimates"]] <- uploadedFiles$dataIP$incidence_estimates
-      dataReport[[randomId]][[objectChoice]][["caption"]] <- input$captionTableSexAge
+      randomId <- getRandomId()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["incidence_estimates"]] <- uploadedFiles$dataIP$incidence_estimates
+      dataReport[["objects"]][[randomId]][[objectChoice]][["caption"]] <- input$captionTableSexAge
     })
 
     # Figure 1
@@ -363,11 +371,10 @@ reportGenerator <- function() {
     # Lock data Figure 1
     observeEvent(input$lockDataIncidenceYear, {
       objectChoice <- "Plot - Incidence rate per year"
-      chars <- c(0:9, letters, LETTERS)
-      randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "" )
-      dataReport[[randomId]][[objectChoice]][["incidence_estimates"]] <- incidenceFigure1()
-      dataReport[[randomId]][[objectChoice]][["plotOption"]] <- input$facetIncidenceYear
-      dataReport[[randomId]][[objectChoice]][["caption"]] <- input$captionIncYear
+      randomId <- getRandomId()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["incidence_estimates"]] <- incidenceFigure1()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["plotOption"]] <- input$facetIncidenceYear
+      dataReport[["objects"]][[randomId]][[objectChoice]][["caption"]] <- input$captionIncYear
     })
 
     # Download Figure 1
@@ -453,11 +460,10 @@ reportGenerator <- function() {
     # Lock data Figure 2
     observeEvent(input$lockDataIncidenceSex, {
       objectChoice <- "Plot - Incidence rate per year by sex"
-      chars <- c(0:9, letters, LETTERS)
-      randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "" )
-      dataReport[[randomId]][[objectChoice]][["incidence_estimates"]] <- incidenceFigure2Sex()
-      dataReport[[randomId]][[objectChoice]][["plotOption"]] <- input$facetIncidenceSex
-      dataReport[[randomId]][[objectChoice]][["caption"]] <- input$captionIncSex
+      randomId <- getRandomId()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["incidence_estimates"]] <- incidenceFigure2Sex()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["plotOption"]] <- input$facetIncidenceSex
+      dataReport[["objects"]][[randomId]][[objectChoice]][["caption"]] <- input$captionIncSex
     })
 
     # Download Figure 2
@@ -544,11 +550,10 @@ reportGenerator <- function() {
     # Lock data Figure 3
     observeEvent(input$lockDataIncidenceAge, {
       objectChoice <- "Plot - Incidence rate per year by age"
-      chars <- c(0:9, letters, LETTERS)
-      randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "" )
-      dataReport[[randomId]][[objectChoice]][["incidence_estimates"]] <- incidenceFigure3Age()
-      dataReport[[randomId]][[objectChoice]][["plotOption"]] <- input$facetIncidenceAge
-      dataReport[[randomId]][[objectChoice]][["caption"]] <- input$captionIncAge
+      randomId <- getRandomId()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["incidence_estimates"]] <- incidenceFigure3Age()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["plotOption"]] <- input$facetIncidenceAge
+      dataReport[["objects"]][[randomId]][[objectChoice]][["caption"]] <- input$captionIncAge
     })
 
     # Download Figure 3
@@ -715,11 +720,10 @@ reportGenerator <- function() {
     # Lock data Figure 4
     observeEvent(input$lockDataPrevalenceYear, {
       objectChoice <- "Plot - Prevalence rate per year"
-      chars <- c(0:9, letters, LETTERS)
-      randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "" )
-      dataReport[[randomId]][[objectChoice]][["prevalence_estimates"]] <- prevalenceFigure4()
-      dataReport[[randomId]][[objectChoice]][["plotOption"]] <- input$facetPrevalenceYear
-      dataReport[[randomId]][[objectChoice]][["caption"]] <- input$captionPrevYear
+      randomId <- getRandomId()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["prevalence_estimates"]] <- prevalenceFigure4()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["plotOption"]] <- input$facetPrevalenceYear
+      dataReport[["objects"]][[randomId]][[objectChoice]][["caption"]] <- input$captionPrevYear
     })
 
     # Download Figure 4
@@ -802,11 +806,10 @@ reportGenerator <- function() {
     # Lock data Figure 5
     observeEvent(input$lockDataPrevalenceSex, {
       objectChoice <- "Plot - Prevalence rate per year by sex"
-      chars <- c(0:9, letters, LETTERS)
-      randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "" )
-      dataReport[[randomId]][[objectChoice]][["prevalence_estimates"]] <- prevalenceFigure5()
-      dataReport[[randomId]][[objectChoice]][["plotOption"]] <- input$facetPrevalenceSex
-      dataReport[[randomId]][[objectChoice]][["caption"]] <- input$captionPrevSex
+      randomId <- getRandomId()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["prevalence_estimates"]] <- prevalenceFigure5()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["plotOption"]] <- input$facetPrevalenceSex
+      dataReport[["objects"]][[randomId]][[objectChoice]][["caption"]] <- input$captionPrevSex
     })
 
     # Download Figure 5
@@ -888,11 +891,10 @@ reportGenerator <- function() {
     # Lock data Figure 6
     observeEvent(input$lockDataPrevalenceAge, {
       objectChoice <- "Plot - Prevalence rate per year by age"
-      chars <- c(0:9, letters, LETTERS)
-      randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "" )
-      dataReport[[randomId]][[objectChoice]][["prevalence_estimates"]] <- prevalenceFigure6()
-      dataReport[[randomId]][[objectChoice]][["plotOption"]] <- input$facetPrevalenceAge
-      dataReport[[randomId]][[objectChoice]][["caption"]] <- input$captionPrevAge
+      randomId <- getRandomId()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["prevalence_estimates"]] <- prevalenceFigure6()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["plotOption"]] <- input$facetPrevalenceAge
+      dataReport[["objects"]][[randomId]][[objectChoice]][["caption"]] <- input$captionPrevAge
     })
 
     # Download Figure 6
@@ -966,12 +968,11 @@ reportGenerator <- function() {
           vheight = 10)
         sunburstPath <- normalizePath(sunburstPNG)
         message("Adding filename to dataReport")
-        chars <- c(0:9, letters, LETTERS)
-        randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "" )
-        dataReport[[randomId]][[objectChoice]][["treatmentPathways"]] <- treatmentDataSunburst()
-        dataReport[[randomId]][[objectChoice]][["outputFile"]] <- sunburstHTML
-        dataReport[[randomId]][[objectChoice]][["returnHTML"]] <- FALSE
-        dataReport[[randomId]][[objectChoice]][["fileImage"]] <- sunburstPNG
+        randomId <- getRandomId()
+        dataReport[["objects"]][[randomId]][[objectChoice]][["treatmentPathways"]] <- treatmentDataSunburst()
+        dataReport[["objects"]][[randomId]][[objectChoice]][["outputFile"]] <- sunburstHTML
+        dataReport[["objects"]][[randomId]][[objectChoice]][["returnHTML"]] <- FALSE
+        dataReport[["objects"]][[randomId]][[objectChoice]][["fileImage"]] <- sunburstPNG
         message("Filename added to dataReport")
     })
 
@@ -1016,12 +1017,11 @@ reportGenerator <- function() {
         vwidth = 1200,
         vheight = 10)
       sankeyPath <- normalizePath(sankeytPNG)
-      chars <- c(0:9, letters, LETTERS)
-      randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "" )
-      dataReport[[randomId]][[objectChoice]][["treatmentPathways"]] <- treatmentDataSankey()
-      dataReport[[randomId]][[objectChoice]][["outputFile"]] <- sankeyHTML
-      dataReport[[randomId]][[objectChoice]][["returnHTML"]] <- FALSE
-      dataReport[[randomId]][[objectChoice]][["fileImage"]] <- sankeytPNG
+      randomId <- getRandomId()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["treatmentPathways"]] <- treatmentDataSankey()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["outputFile"]] <- sankeyHTML
+      dataReport[["objects"]][[randomId]][[objectChoice]][["returnHTML"]] <- FALSE
+      dataReport[["objects"]][[randomId]][[objectChoice]][["fileImage"]] <- sankeytPNG
       message("Filename added to dataReport")
     })
 
@@ -1063,32 +1063,32 @@ reportGenerator <- function() {
 
     observeEvent(input$locksurvivalTable, {
       objectChoice <- "Survival table"
-      randomId <- stringr::str_c(sample(c(0:9, letters, LETTERS), 4, replace = TRUE) , collapse = "" )
-      dataReport[[randomId]][[objectChoice]][["survivalEstimate"]] <- survivalEstimateData()
-      dataReport[[randomId]][[objectChoice]][["caption"]] <- input$'survivalTable-captionSurvivalEstimateData'
+      randomId <- getRandomId()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["survivalEstimate"]] <- survivalEstimateData()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["caption"]] <- input$'survivalTable-captionSurvivalEstimateData'
     })
 
     observeEvent(input$locksurvivalPlot, {
       objectChoice <- "Survival plot"
-      randomId <- stringr::str_c(sample(c(0:9, letters, LETTERS), 4, replace = TRUE) , collapse = "" )
-      dataReport[[randomId]][[objectChoice]][["survivalEstimate"]] <- survivalEstimatePlotData()
-      dataReport[[randomId]][[objectChoice]][["plotOption"]] <- "Facet by database, colour by strata_name"
-      dataReport[[randomId]][[objectChoice]][["caption"]] <- input$'survivalPlot-captionSurvivalEstimate'
+      randomId <- getRandomId()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["survivalEstimate"]] <- survivalEstimatePlotData()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["plotOption"]] <- "Facet by database, colour by strata_name"
+      dataReport[["objects"]][[randomId]][[objectChoice]][["caption"]] <- input$'survivalPlot-captionSurvivalEstimate'
     })
 
     observeEvent(input$lockfailureTable, {
       objectChoice <- "Cumulative incidence table"
-      randomId <- stringr::str_c(sample(c(0:9, letters, LETTERS), 4, replace = TRUE) , collapse = "" )
-      dataReport[[randomId]][[objectChoice]][["cumulativeSurvivalEstimate"]] <- cumulativeSurvivalData()
-      dataReport[[randomId]][[objectChoice]][["caption"]] <- input$'failureTable-captionCumulativeIncidenceData'
+      randomId <- getRandomId()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["cumulativeSurvivalEstimate"]] <- cumulativeSurvivalData()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["caption"]] <- input$'failureTable-captionCumulativeIncidenceData'
     })
 
     observeEvent(input$lockfailurePlot, {
       objectChoice <- "Cumulative incidence plot"
-      randomId <- stringr::str_c(sample(c(0:9, letters, LETTERS), 4, replace = TRUE) , collapse = "" )
-      dataReport[[randomId]][[objectChoice]][["cumulativeSurvivalEstimate"]] <- cumulativeSurvivalPlotData()
-      dataReport[[randomId]][[objectChoice]][["plotOption"]] <- "Facet by database, colour by strata_name"
-      dataReport[[randomId]][[objectChoice]][["caption"]] <- input$'failurePlot-captionCumulativeIncidence'
+      randomId <- getRandomId()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["cumulativeSurvivalEstimate"]] <- cumulativeSurvivalPlotData()
+      dataReport[["objects"]][[randomId]][[objectChoice]][["plotOption"]] <- "Facet by database, colour by strata_name"
+      dataReport[["objects"]][[randomId]][[objectChoice]][["caption"]] <- input$'failurePlot-captionCumulativeIncidence'
     })
 
     # PatientProfiles
@@ -1097,9 +1097,8 @@ reportGenerator <- function() {
 
     observe({
       for (key in names(dataCharacteristics())) {
-        chars <- c(0:9, letters, LETTERS)
-        randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "" )
-        dataReport[[randomId]] <- dataCharacteristics()
+        randomId <- getRandomId()
+        dataReport[["objects"]][[randomId]] <- dataCharacteristics()
       }
     }) %>%
       bindEvent(dataCharacteristics())
@@ -1109,9 +1108,8 @@ reportGenerator <- function() {
 
     observe({
       for (key in names(dataLSC())) {
-        chars <- c(0:9, letters, LETTERS)
-        randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "" )
-        dataReport[[randomId]] <- dataLSC()
+        randomId <- getRandomId()
+        dataReport[["objects"]][[randomId]] <- dataLSC()
       }
     }) %>%
       bindEvent(dataLSC())
@@ -1197,10 +1195,10 @@ reportGenerator <- function() {
     })
 
     objectsListPreview <- reactive({
-      dataReportList <- reactiveValuesToList(dataReport)
-      if (length(dataReportList) == 0) {
+      if (is.null(dataReport$objects)) {
         return("None")
       } else {
+        dataReportList <- reactiveValuesToList(do.call(reactiveValues, dataReport$objects))
         result <- data.frame(name = character(0), caption = character(0))
         for (i in seq(1:length(dataReportList))) {
           name <- names(dataReportList[[i]])
@@ -1217,12 +1215,14 @@ reportGenerator <- function() {
 
     output$dataReportMenu <- renderDT(server=FALSE, {
       dataReportFrame <- objectsListPreview()
-      DT::datatable(dataReportFrame,
-                    extensions = "RowReorder",
-                    colnames = c(ID = 1),
-                    options = list(dom = 't',
-                                   order = list(list(0, 'asc')),
-                                   rowReorder = TRUE))
+      if (inherits(dataReportFrame, "data.frame")) {
+        DT::datatable(dataReportFrame,
+                      extensions = "RowReorder",
+                      colnames = c(ID = 1),
+                      options = list(dom = 't',
+                                     order = list(list(0, 'asc')),
+                                     rowReorder = TRUE))
+      }
     })
 
     # Word report generator
@@ -1233,16 +1233,53 @@ reportGenerator <- function() {
       content = function(file) {
         shinyjs::disable("generateReport")
         # Load template and generate report
+        shinyjs::html("reportOutput", "<br>Generating report", add = TRUE)
         reportDocx <- read_docx(path = system.file("templates",
                                                    "word",
                                                    "DARWIN_EU_Study_Report.docx",
                                                    package = "ReportGenerator"))
+        reportItems <- list()
+        if (!is.null(dataReport$objects)) {
+          reportItems <- rev(reactiveValuesToList(do.call(reactiveValues, dataReport$objects)))
+        }
         generateReport(reportDocx,
-                       rev(reactiveValuesToList(dataReport)),
+                       reportItems,
                        file)
         shinyjs::enable("generateReport")
       }
     )
+
+    # download sample study data
+    output$downloadStudyData <- downloadHandler(
+      filename = function() { "StudyResults.zip" },
+      content = function(file) {
+        file.copy(system.file("extdata/examples/StudyResults.zip", package = "ReportGenerator"), file)
+      },
+      contentType = "application/zip"
+    )
+
+    # save report
+    output$saveReportData <- downloadHandler(
+      filename = "reportItems.rds",
+      content = function(file) {
+        if (!is.null(dataReport$objects)) {
+          shinyjs::html("reportOutput", "<br>Saving report items to rds file", add = TRUE)
+          shinyjs::disable("saveReportData")
+          reportItems <- reactiveValuesToList(do.call(reactiveValues, dataReport$objects))
+          saveRDS(reportItems, file)
+          shinyjs::enable("saveReportData")
+        }
+      }
+    )
+    # Check input data
+    observeEvent(input$loadReportItems, {
+      inFile <- input$loadReportItems
+      fileDataPath <- inFile$datapath
+      reportItems <- readRDS(fileDataPath)
+      dataReport$objects <- reportItems
+      shinyjs::html("reportOutput", "<br>Loaded report items from rds file", add = TRUE)
+    })
+
   }
   shinyApp(ui, server)
 }

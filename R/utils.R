@@ -217,3 +217,9 @@ exportResults <- function(resultList,
 
   invisible(resultList)
 }
+
+getRandomId <- function() {
+  chars <- c(0:9, letters, LETTERS)
+  randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "")
+  return(randomId)
+}
