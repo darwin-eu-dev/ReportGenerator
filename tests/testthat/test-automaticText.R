@@ -1,3 +1,11 @@
+testData <- testData()
+
+incidence_attrition_test <- testData$incidence_attrition
+incidence_estimates_test <- testData$incidence_estimates
+prevalence_attrition_test <- testData$prevalence_attrition
+prevalence_estimates_test <- testData$prevalence_estimates
+
+
 test_that("check automatic character single", {
   autotext <- table1aAutText(incidence_attrition = incidence_attrition_test, prevalence_attrition = prevalence_attrition_test)
   expect_type(autotext, "character")

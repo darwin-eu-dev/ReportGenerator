@@ -1,3 +1,7 @@
+testData <- testData()
+
+incidence_estimates_test <- testData$incidence_estimates
+
 test_that("incidenceServer works", {
   uploadedFiles <- reactiveValues(dataIP = list(incidence_estimates = incidence_estimates_test))
 
