@@ -467,9 +467,13 @@ reportGenerator <- function() {
 
     # download sample study data
     output$downloadStudyData <- downloadHandler(
-      filename = function() { "StudyResults.zip" },
+      filename = function() {
+        "StudyResults.zip"
+        },
       content = function(file) {
-        file.copy(system.file("extdata/examples/StudyResults.zip", package = "ReportGenerator"), file)
+        file.copy(system.file("extdata/examples/StudyResults.zip",
+                              package = "ReportGenerator"),
+                  file)
       },
       contentType = "application/zip"
     )
@@ -479,9 +483,11 @@ reportGenerator <- function() {
       filename = "reportItems.rds",
       content = function(file) {
         if (!is.null(dataReport$objects)) {
-          shinyjs::html("reportOutput", "<br>Saving report items to rds file", add = TRUE)
+          shinyjs::html("reportOutput", "<br>Saving report items to rds file",
+                        add = TRUE)
           shinyjs::disable("saveReportData")
-          reportItems <- reactiveValuesToList(do.call(reactiveValues, dataReport$objects))
+          reportItems <- reactiveValuesToList(do.call(reactiveValues,
+                                                      dataReport$objects))
           saveRDS(reportItems, file)
           shinyjs::enable("saveReportData")
         }

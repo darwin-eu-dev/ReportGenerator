@@ -57,3 +57,4 @@ test_that("Loading multiple csv files whole study", {
   expect_type(uploadedFiles, "list")
   unlink(csvLocation, recursive = TRUE)
 })
+
