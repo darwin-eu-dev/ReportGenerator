@@ -16,11 +16,13 @@
 
 #' Creates a mock data set for ReportGenerator
 #'
-#' `generateMockData()` uses [IncidencePrevalence::mockIncidencePrevalenceRef()] function to create csv files to test ReportGenerator.
+#' `generateMockData()` uses mock functions from other packages to create csv files to test ReportGenerator.
 #'
 #' @param databaseName A vector with the name in characters of each database.
 #' @param simulatePopulation TRUE or FALSE to simulate different population sizes. TRUE is default.
+#' @param sampleSize Size of the sample for each database.
 #' @param outputDir A character vector of the directory to export mock data.
+#'
 #' @import dplyr tidyr IncidencePrevalence duckdb
 #' @importFrom utils head write.csv packageVersion
 #' @importFrom stats time
@@ -33,10 +35,12 @@ generateMockData <- function(databaseName = c("CHUBX",
                                               "IPCI",
                                               "SIDIAP"),
                              simulatePopulation = TRUE,
+                             sampleSize = NULL,
                              outputDir = file.path(getwd(), "results")) {
 
+  message("Start generateMockData")
   for (dbName in databaseName) {
-    if (simulatePopulation == TRUE) {
+    if (simulatePopulation == TRUE && is.null(sampleSize)) {
       if (dbName== "CHUBX") {
         sampleSize <- 2152385
       } else if (dbName== "CPRD GOLD") {
@@ -49,9 +53,12 @@ generateMockData <- function(databaseName = c("CHUBX",
         sampleSize <- 8265343
       }
     } else {
-      sampleSize <- 50000
+      if (is.null(sampleSize)) {
+        sampleSize <- 50000
+      }
     }
 
+    message(glue::glue("Generating mock data for db {dbName}, sampleSize: {sampleSize}"))
     cdm <- IncidencePrevalence::mockIncidencePrevalenceRef(
       sampleSize = sampleSize,
       outPre = 0.5)
@@ -75,7 +82,6 @@ generateMockData <- function(databaseName = c("CHUBX",
                                                                   outcomeWashout = 180,
                                                                   repeatedEvents = FALSE,
                                                                   minCellCount = 5,
-                                                                  temporary = TRUE,
                                                                   returnParticipants = FALSE)
 
     incidence_attrition <- IncidencePrevalence::incidenceAttrition(incidence_estimates)

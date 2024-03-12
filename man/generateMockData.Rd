@@ -7,6 +7,7 @@
 generateMockData(
   databaseName = c("CHUBX", "CPRD GOLD", "IMASIS", "IPCI", "SIDIAP"),
   simulatePopulation = TRUE,
+  sampleSize = NULL,
   outputDir = file.path(getwd(), "results")
 )
 }
@@ -15,11 +16,13 @@ generateMockData(
 
 \item{simulatePopulation}{TRUE or FALSE to simulate different population sizes. TRUE is default.}
 
+\item{sampleSize}{Size of the sample for each database.}
+
 \item{outputDir}{A character vector of the directory to export mock data.}
 }
 \value{
 csv files
 }
 \description{
-`generateMockData()` uses [IncidencePrevalence::mockIncidencePrevalenceRef()] function to create csv files to test ReportGenerator.
+`generateMockData()` uses mock functions from other packages to create csv files to test ReportGenerator.
 }

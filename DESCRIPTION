@@ -10,7 +10,7 @@ Description: Generates automatic reports in Word format from Data Analysis and R
 License: Apache License (>= 2)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 Depends:
     R (>= 3.6.1),
     dplyr
@@ -36,7 +36,6 @@ Imports:
     yaml,
     waldo,
     googleVis,
-    gtools,
     ggplot2,
     gto,
     gt,
