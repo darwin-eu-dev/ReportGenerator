@@ -1,39 +1,37 @@
 tabPanelSelection <- function(selection, uploadedFiles) {
   if (selection == "Table - Number of participants") {
-    tabPanel(selection, tableNumParFilters(uploadedFiles), tableOutput("previewTable1"))
+    tabPanel(selection, attritionUI(selection, uploadedFiles))
   } else if (selection == "Table - Incidence Attrition") {
-    tabPanel(selection, tableAttIncFilters(uploadedFiles), tableOutput("previewTableAttInc"))
+    tabPanel(selection, attritionUI(selection, uploadedFiles))
   } else if (selection == "Table - Prevalence Attrition") {
-    tabPanel(selection, tableAttPrevFilters(uploadedFiles), tableOutput("previewTableAttPrev"))
+    tabPanel(selection, attritionUI(selection, uploadedFiles))
   } else if (selection == "Table - Number of participants by sex and age group") {
-    tabPanel(selection, tableSexFilters(uploadedFiles), gt_output("previewTableSex"))
+    tabPanel(selection, tableUI(selection, uploadedFiles))
   } else if (selection == "Plot - Incidence rate per year") {
-    tabPanel(selection, incPlotByYearFilters(uploadedFiles, selection), plotOutput("previewFigure1"))
+    tabPanel(selection, incidenceUI(selection, uploadedFiles))
   } else if (selection == "Plot - Incidence rate per year by sex") {
-    tabPanel(selection, incPlotSexFilters(uploadedFiles, selection), plotOutput("previewFigure2"))
+    tabPanel(selection, incidenceUI(selection, uploadedFiles))
   } else if (selection == "Plot - Incidence rate per year by age") {
-    tabPanel(selection, incPlotAgeFilters(uploadedFiles, selection), plotOutput("previewFigure3"))
-  } else if (selection == "Plot - Prevalence rate per year") {
-    tabPanel(selection, prevPlotByYearFilters(uploadedFiles, selection), plotOutput("previewFigure4"))
-  } else if (selection == "Plot - Prevalence rate per year by sex") {
-    tabPanel(selection, prevPlotSexFilters(uploadedFiles, selection), plotOutput("previewFigure5"))
-  } else if (selection == "Plot - Prevalence rate per year by age") {
-    tabPanel(selection, prevPlotAgeFilters(uploadedFiles, selection), plotOutput("previewFigure6"))
-  } else if (selection == "Sankey Diagram - TreatmentPatterns") {
-    tabPanel(selection, sankeyDiagramFilters(uploadedFiles), htmlOutput("previewSankeyDiagram"))
-  } else if (selection == "Sunburst Plot - TreatmentPatterns") {
-    tabPanel(selection, sunburstDiagramFilters(uploadedFiles), htmlOutput("previewSunburstPlot"))
-  } else if (selection == "Summarised Characteristics") {
-    tabPanel(selection, characteristicsUI("characteristics", uploadedFiles$dataPP$`summarised_characteristics`))
+    tabPanel(selection, incidenceUI(selection, uploadedFiles))
+  } else if (selection == "Plot - Prevalence per year") {
+    tabPanel(selection, prevalenceUI(selection, uploadedFiles))
+  } else if (selection == "Plot - Prevalence per year by sex") {
+    tabPanel(selection, prevalenceUI(selection, uploadedFiles))
+  } else if (selection == "Plot - Prevalence per year by age") {
+    tabPanel(selection, prevalenceUI(selection, uploadedFiles))
+  } else if (selection == "Treatment Pathways Interactive Plots") {
+    tabPanel(selection, patternsUI(selection, uploadedFiles))
+  } else if (selection == "summarised_characteristics") {
+    tabPanel(selection, characteristicsUI("characteristics", uploadedFiles))
   } else if (selection == "Summarised Large Scale Characteristics") {
-    tabPanel(selection, characteristicsUI("lsc", uploadedFiles$dataPP$`Summarised Large Scale Characteristics`))
+    tabPanel(selection, characteristicsUI("lsc", uploadedFiles))
   } else if (selection == "Survival table") {
-    tabPanel(selection, cohortSurvivalUI("survivalTable", uploadedFiles$dataCS$`Survival estimate`))
+    tabPanel(selection, cohortSurvivalUI("survivalTable", uploadedFiles))
   } else if (selection == "Survival plot") {
-    tabPanel(selection, cohortSurvivalUI("survivalPlot", uploadedFiles$dataCS$`Survival estimate`))
+    tabPanel(selection, cohortSurvivalUI("survivalPlot", uploadedFiles))
   } else if (selection == "Cumulative incidence table") {
-    tabPanel(selection, cohortSurvivalUI("failureTable", uploadedFiles$dataCS$`Survival cumulative incidence`))
+    tabPanel(selection, cohortSurvivalUI("failureTable", uploadedFiles))
   } else if (selection == "Cumulative incidence plot") {
-    tabPanel(selection, cohortSurvivalUI("failurePlot", uploadedFiles$dataCS$`Survival cumulative incidence`))
+    tabPanel(selection, cohortSurvivalUI("failurePlot", uploadedFiles))
   }
 }

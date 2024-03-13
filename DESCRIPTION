@@ -35,8 +35,6 @@ Imports:
     glue,
     yaml,
     waldo,
-    googleVis,
-    gtools,
     ggplot2,
     gto,
     gt,
@@ -46,16 +44,18 @@ Imports:
     DT,
     TreatmentPatterns (>= 2.6.0),
     PatientProfiles,
-    shinycssloaders
+    shinycssloaders,
+    shinyjs,
+    rlang,
+    tidyselect
 Suggests:
     testthat,
     rmarkdown,
     networkD3,
     sunburstR,
     knitr,
-    CohortSurvival,
     htmlwidgets,
-    shinyjs
+    CohortSurvival
 Config/testthat/edition: 3
 URL: https://darwin-eu-dev.github.io/ReportGenerator/
 BugReports: https://github.com/darwin-eu-dev/ReportGenerator/issues

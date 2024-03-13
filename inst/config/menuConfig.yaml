@@ -25,53 +25,58 @@ table1Inc:
   options: NULL
 plotIncidenceYear:
   title: "Plot - Incidence rate per year"
-  function: plotIncidence(incidence_estimates, colour, facet)
+  function: plotIncidence(incidence_estimates, colour, facet, ribbon, options)
   type:
     - incidence_estimates
-  options: Facet by outcome, Facet by database
+  options: Facet by outcome, Facet by database, Ribbon, Options
 plotIncidenceSex:
   title: "Plot - Incidence rate per year by sex"
-  function: plotIncidence(incidence_estimates, colour, facet)
+  function: plotIncidence(incidence_estimates, colour, facet, ribbon, options)
   type:
     - incidence_estimates
-  options: Facet by outcome, Facet by database
+  options: Facet by outcome, Facet by database, Ribbon, Options
 plotIncidenceAge:
   title: "Plot - Incidence rate per year by age"
-  function: plotIncidence(incidence_estimates, colour, facet)
+  function: plotIncidence(incidence_estimates, colour, facet, ribbon, options)
   type:
     - incidence_estimates
-  options: Facet by outcome, Facet by database
+  options: Facet by outcome, Facet by database, Ribbon, Options
 plotPrevalenceYear:
-  title: "Plot - Prevalence rate per year"
-  function: plotPrevalence(prevalence_estimates, colour, facet)
+  title: "Plot - Prevalence per year"
+  function: plotPrevalence(prevalence_estimates, colour, facet, ribbon, options)
   type:
     - prevalence_estimates
-  options: Facet by outcome, Facet by database
+  options: Facet by outcome, Facet by database, Ribbon, Options
 plotPrevalenceSex:
-  title: "Plot - Prevalence rate per year by sex"
-  function: plotPrevalence(prevalence_estimates, colour, facet)
+  title: "Plot - Prevalence per year by sex"
+  function: plotPrevalence(prevalence_estimates, colour, facet, ribbon, options)
   type:
     - prevalence_estimates
-  options: Facet by outcome, Facet by database
+  options: Facet by outcome, Facet by database, Ribbon, Options
 plotPrevalenceAge:
-  title: "Plot - Prevalence rate per year by age"
-  function: plotPrevalence(prevalence_estimates, colour, facet)
+  title: "Plot - Prevalence per year by age"
+  function: plotPrevalence(prevalence_estimates, colour, facet, ribbon, options)
   type:
     - prevalence_estimates
-  options: Facet by outcome, Facet by database
+  options: Facet by outcome, Facet by database, Ribbon, Options
+treatmentPathways:
+  title: "Treatment Pathways Interactive Plots"
+  type:
+    - treatmentPathways
 createSunburstPlot:
   title: "Sunburst Plot - TreatmentPatterns"
-  function: createSunburstPlot(treatmentPathways, outputFile, returnHTML)
-  type:
-    - treatmentPathways
+  function: createSunburstPlot(treatmentPathways, groupCombinations)
   options: TRUE, FALSE
+  type:
+    - plot
 createSankeyDiagram:
   title: "Sankey Diagram - TreatmentPatterns"
-  function: createSankeyDiagram(treatmentPathways)
+  function: createSankeyDiagram(treatmentPathways, groupCombinations)
+  options: TRUE, FALSE
   type:
-    - treatmentPathways
+    - diagram
 summaryCharacteristics:
-  title: "Summarised Characteristics"
+  title: "summarised_characteristics"
   function: gtCharacteristics(summarisedCharacteristics)
   type:
     - summarised_characteristics

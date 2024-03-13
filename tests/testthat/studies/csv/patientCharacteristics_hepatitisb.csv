@@ -1,0 +1,1106 @@
+cdm_name,result_type,group_name,group_level,strata_name,strata_level,variable,variable_level,variable_type,estimate_type,estimate
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Number subjects,NA,numeric,count,235
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Number records,NA,NA,count,235
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Cohort start date,NA,date,min,04/01/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Cohort start date,NA,date,q05,09/02/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Cohort start date,NA,date,q25,19/01/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Cohort start date,NA,date,median,25/11/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Cohort start date,NA,date,q75,06/01/2017
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Cohort start date,NA,date,q95,19/01/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Cohort start date,NA,date,max,18/10/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Cohort end date,NA,date,min,07/07/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Cohort end date,NA,date,q05,24/02/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Cohort end date,NA,date,q25,10/06/2018
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Cohort end date,NA,date,median,23/12/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Cohort end date,NA,date,q75,25/11/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Cohort end date,NA,date,q95,09/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Cohort end date,NA,date,max,16/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Sex,Female,categorical,count,69
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Sex,Female,categorical,percentage,293.617.021.276.596
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Sex,Male,categorical,count,166
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Sex,Male,categorical,percentage,706.382.978.723.404
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Age,NA,numeric,min,18
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Age,NA,numeric,q05,28
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Age,NA,numeric,q25,44.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Age,NA,numeric,median,52
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Age,NA,numeric,q75,63
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Age,NA,numeric,q95,75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Age,NA,numeric,max,91
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Age,NA,numeric,mean,527.702.127.659.574
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Age,NA,numeric,sd,142.291.369.976.583
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Prior observation,NA,numeric,min,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Prior observation,NA,numeric,q05,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Prior observation,NA,numeric,q25,93.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Prior observation,NA,numeric,median,1785
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Prior observation,NA,numeric,q75,2936.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Prior observation,NA,numeric,q95,4587.6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Prior observation,NA,numeric,max,5866
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Prior observation,NA,numeric,mean,1810.6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Prior observation,NA,numeric,sd,161.818.684.065.903
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Future observation,NA,numeric,min,63
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Future observation,NA,numeric,q05,121.7
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Future observation,NA,numeric,q25,802.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Future observation,NA,numeric,median,2125
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Future observation,NA,numeric,q75,3233.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Future observation,NA,numeric,q95,4235.9
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Future observation,NA,numeric,max,4395
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Future observation,NA,numeric,mean,205.796.595.744.681
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Future observation,NA,numeric,sd,139.835.796.825.532
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,29
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,123.404.255.319.149
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,76
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,323.404.255.319.149
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Alcoholism,binary,count,18
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,765.957.446.808.511
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Stds,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Stds,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Hypertension,binary,count,35
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,148.936.170.212.766
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Hiv,binary,count,12
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Hiv,binary,percentage,51.063.829.787.234
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,7
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,297.872.340.425.532
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Diabetes,binary,count,25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,106.382.978.723.404
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Fattyliver,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,Overall,Overall,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Number subjects,NA,numeric,count,59
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Number records,NA,NA,count,59
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Cohort start date,NA,date,min,10/01/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Cohort start date,NA,date,q05,24/01/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Cohort start date,NA,date,q25,30/08/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Cohort start date,NA,date,median,26/08/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Cohort start date,NA,date,q75,14/07/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Cohort start date,NA,date,q95,17/12/2017
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Cohort start date,NA,date,max,18/10/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Cohort end date,NA,date,min,15/01/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Cohort end date,NA,date,q05,04/03/2015
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Cohort end date,NA,date,q25,23/07/2019
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Cohort end date,NA,date,median,29/07/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Cohort end date,NA,date,q75,13/12/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Cohort end date,NA,date,q95,07/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Cohort end date,NA,date,max,16/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Sex,Female,categorical,count,20
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Sex,Female,categorical,percentage,338.983.050.847.458
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Sex,Male,categorical,count,39
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Sex,Male,categorical,percentage,661.016.949.152.542
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Age,NA,numeric,min,18
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Age,NA,numeric,q05,23.9
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Age,NA,numeric,q25,30
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Age,NA,numeric,median,34
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Age,NA,numeric,q75,40
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Age,NA,numeric,q95,42.1
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Age,NA,numeric,max,44
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Age,NA,numeric,mean,339.830.508.474.576
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Age,NA,numeric,sd,643.934.973.538.566
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Prior observation,NA,numeric,min,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Prior observation,NA,numeric,q05,0.9
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Prior observation,NA,numeric,q25,66.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Prior observation,NA,numeric,median,1282
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Prior observation,NA,numeric,q75,2422.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Prior observation,NA,numeric,q95,3654.9
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Prior observation,NA,numeric,max,4640
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Prior observation,NA,numeric,mean,133.418.644.067.797
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Prior observation,NA,numeric,sd,13.180.457.644.006
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Future observation,NA,numeric,min,78
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Future observation,NA,numeric,q05,205.9
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Future observation,NA,numeric,q25,1440
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Future observation,NA,numeric,median,2528
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Future observation,NA,numeric,q75,3806
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Future observation,NA,numeric,q95,4248.4
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Future observation,NA,numeric,max,4363
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Future observation,NA,numeric,mean,246.867.796.610.169
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Future observation,NA,numeric,sd,133.330.286.598.251
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,10
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,169.491.525.423.729
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Alcoholism,binary,count,5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,847.457.627.118.644
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Stds,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Stds,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Hypertension,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Hiv,binary,count,7
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Hiv,binary,percentage,11.864.406.779.661
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Diabetes,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Fattyliver,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,18 to 44,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Number subjects,NA,numeric,count,124
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Number records,NA,NA,count,124
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Cohort start date,NA,date,min,04/01/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Cohort start date,NA,date,q05,03/02/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Cohort start date,NA,date,q25,20/01/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Cohort start date,NA,date,median,06/04/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Cohort start date,NA,date,q75,18/10/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Cohort start date,NA,date,q95,27/11/2020
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Cohort start date,NA,date,max,29/08/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Cohort end date,NA,date,min,07/07/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Cohort end date,NA,date,q05,25/08/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Cohort end date,NA,date,q25,19/01/2018
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Cohort end date,NA,date,median,21/10/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Cohort end date,NA,date,q75,01/12/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Cohort end date,NA,date,q95,08/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Cohort end date,NA,date,max,16/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Sex,Female,categorical,count,39
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Sex,Female,categorical,percentage,314.516.129.032.258
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Sex,Male,categorical,count,85
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Sex,Male,categorical,percentage,685.483.870.967.742
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Age,NA,numeric,min,45
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Age,NA,numeric,q05,46
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Age,NA,numeric,q25,48.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Age,NA,numeric,median,53
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Age,NA,numeric,q75,59
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Age,NA,numeric,q95,63
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Age,NA,numeric,max,64
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Age,NA,numeric,mean,538.306.451.612.903
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Age,NA,numeric,sd,567.654.104.887.562
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Prior observation,NA,numeric,min,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Prior observation,NA,numeric,q05,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Prior observation,NA,numeric,q25,120.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Prior observation,NA,numeric,median,2082
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Prior observation,NA,numeric,q75,3053.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Prior observation,NA,numeric,q95,4548.6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Prior observation,NA,numeric,max,5787
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Prior observation,NA,numeric,mean,186.513.709.677.419
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Prior observation,NA,numeric,sd,161.068.899.227.385
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Future observation,NA,numeric,min,63
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Future observation,NA,numeric,q05,119.3
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Future observation,NA,numeric,q25,748.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Future observation,NA,numeric,median,1954.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Future observation,NA,numeric,q75,3560
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Future observation,NA,numeric,q95,4283.35
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Future observation,NA,numeric,max,4395
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Future observation,NA,numeric,mean,209.351.612.903.226
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Future observation,NA,numeric,sd,146.994.331.777.158
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,19
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,153.225.806.451.613
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,45
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,362.903.225.806.452
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Alcoholism,binary,count,11
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,887.096.774.193.548
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Stds,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Stds,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Hypertension,binary,count,23
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,185.483.870.967.742
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Hiv,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Hiv,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Diabetes,binary,count,14
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,112.903.225.806.452
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Fattyliver,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,45 to 64,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Number subjects,NA,numeric,count,52
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Number records,NA,NA,count,52
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Cohort start date,NA,date,min,03/05/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Cohort start date,NA,date,q05,07/06/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Cohort start date,NA,date,q25,11/09/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Cohort start date,NA,date,median,08/06/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Cohort start date,NA,date,q75,14/02/2018
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Cohort start date,NA,date,q95,02/08/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Cohort start date,NA,date,max,31/07/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Cohort end date,NA,date,min,19/03/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Cohort end date,NA,date,q05,27/07/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Cohort end date,NA,date,q25,03/11/2018
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Cohort end date,NA,date,median,13/08/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Cohort end date,NA,date,q75,23/08/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Cohort end date,NA,date,q95,14/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Cohort end date,NA,date,max,16/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Sex,Female,categorical,count,10
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Sex,Female,categorical,percentage,192.307.692.307.692
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Sex,Male,categorical,count,42
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Sex,Male,categorical,percentage,807.692.307.692.308
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Age,NA,numeric,min,65
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Age,NA,numeric,q05,65
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Age,NA,numeric,q25,67
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Age,NA,numeric,median,70
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Age,NA,numeric,q75,74.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Age,NA,numeric,q95,82.9
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Age,NA,numeric,max,91
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Age,NA,numeric,mean,715.576.923.076.923
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Age,NA,numeric,sd,575.790.492.105.763
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Prior observation,NA,numeric,min,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Prior observation,NA,numeric,q05,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Prior observation,NA,numeric,q25,143.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Prior observation,NA,numeric,median,2396
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Prior observation,NA,numeric,q75,3786
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Prior observation,NA,numeric,q95,5284.95
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Prior observation,NA,numeric,max,5866
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Prior observation,NA,numeric,mean,222.109.615.384.615
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Prior observation,NA,numeric,sd,182.763.036.615.149
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Future observation,NA,numeric,min,90
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Future observation,NA,numeric,q05,121.1
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Future observation,NA,numeric,q25,573.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Future observation,NA,numeric,median,1206
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Future observation,NA,numeric,q75,2305.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Future observation,NA,numeric,q95,3435.2
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Future observation,NA,numeric,max,3912
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Future observation,NA,numeric,mean,150.719.230.769.231
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Future observation,NA,numeric,sd,110.971.464.338.522
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,7
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,134.615.384.615.385
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,21
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,403.846.153.846.154
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Alcoholism,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Stds,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Stds,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Hypertension,binary,count,11
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,211.538.461.538.462
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Hiv,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Hiv,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,961.538.461.538.461
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Diabetes,binary,count,9
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,173.076.923.076.923
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Fattyliver,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,age_group,65 to 150,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Number subjects,NA,numeric,count,69
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Number records,NA,NA,count,69
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Cohort start date,NA,date,min,12/01/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Cohort start date,NA,date,q05,08/02/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Cohort start date,NA,date,q25,18/04/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Cohort start date,NA,date,median,03/10/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Cohort start date,NA,date,q75,17/11/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Cohort start date,NA,date,q95,07/08/2019
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Cohort start date,NA,date,max,28/03/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Cohort end date,NA,date,min,07/07/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Cohort end date,NA,date,q05,24/03/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Cohort end date,NA,date,q25,01/03/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Cohort end date,NA,date,median,19/08/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Cohort end date,NA,date,q75,28/11/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Cohort end date,NA,date,q95,07/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Cohort end date,NA,date,max,16/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Sex,Female,categorical,count,69
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Sex,Female,categorical,percentage,100
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Sex,Male,categorical,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Sex,Male,categorical,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Age,NA,numeric,min,20
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Age,NA,numeric,q05,26
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Age,NA,numeric,q25,41
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Age,NA,numeric,median,50
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Age,NA,numeric,q75,60
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Age,NA,numeric,q95,73.4
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Age,NA,numeric,max,85
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Age,NA,numeric,mean,50.463.768.115.942
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Age,NA,numeric,sd,145.870.406.930.513
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Prior observation,NA,numeric,min,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Prior observation,NA,numeric,q05,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Prior observation,NA,numeric,q25,123
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Prior observation,NA,numeric,median,1693
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Prior observation,NA,numeric,q75,2514
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Prior observation,NA,numeric,q95,4485.2
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Prior observation,NA,numeric,max,5787
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Prior observation,NA,numeric,mean,166.285.507.246.377
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Prior observation,NA,numeric,sd,150.229.681.287.728
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Future observation,NA,numeric,min,78
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Future observation,NA,numeric,q05,241.8
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Future observation,NA,numeric,q25,1409
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Future observation,NA,numeric,median,2707
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Future observation,NA,numeric,q75,3625
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Future observation,NA,numeric,q95,4277
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Future observation,NA,numeric,max,4363
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Future observation,NA,numeric,mean,253.213.043.478.261
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Future observation,NA,numeric,sd,131.157.270.787.048
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,72.463.768.115.942
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,20
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,289.855.072.463.768
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Alcoholism,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Stds,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Stds,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Hypertension,binary,count,12
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,173.913.043.478.261
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Hiv,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Hiv,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Diabetes,binary,count,7
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,101.449.275.362.319
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Fattyliver,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Female,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Number subjects,NA,numeric,count,166
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Number records,NA,NA,count,166
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Cohort start date,NA,date,min,04/01/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Cohort start date,NA,date,q05,11/02/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Cohort start date,NA,date,q25,19/01/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Cohort start date,NA,date,median,11/01/2015
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Cohort start date,NA,date,q75,04/02/2017
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Cohort start date,NA,date,q95,25/04/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Cohort start date,NA,date,max,18/10/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Cohort end date,NA,date,min,08/09/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Cohort end date,NA,date,q05,11/12/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Cohort end date,NA,date,q25,07/04/2017
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Cohort end date,NA,date,median,30/10/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Cohort end date,NA,date,q75,11/11/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Cohort end date,NA,date,q95,13/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Cohort end date,NA,date,max,16/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Sex,Female,categorical,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Sex,Female,categorical,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Sex,Male,categorical,count,166
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Sex,Male,categorical,percentage,100
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Age,NA,numeric,min,18
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Age,NA,numeric,q05,30
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Age,NA,numeric,q25,45
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Age,NA,numeric,median,53.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Age,NA,numeric,q75,64.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Age,NA,numeric,q95,74.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Age,NA,numeric,max,91
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Age,NA,numeric,mean,537.289.156.626.506
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Age,NA,numeric,sd,140.105.590.494.346
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Prior observation,NA,numeric,min,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Prior observation,NA,numeric,q05,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Prior observation,NA,numeric,q25,83.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Prior observation,NA,numeric,median,1922.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Prior observation,NA,numeric,q75,3062.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Prior observation,NA,numeric,q95,4593
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Prior observation,NA,numeric,max,5866
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Prior observation,NA,numeric,mean,187.201.204.819.277
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Prior observation,NA,numeric,sd,166.448.566.261.956
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Future observation,NA,numeric,min,63
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Future observation,NA,numeric,q05,119.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Future observation,NA,numeric,q25,574.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Future observation,NA,numeric,median,1628
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Future observation,NA,numeric,q75,2843.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Future observation,NA,numeric,q95,4216.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Future observation,NA,numeric,max,4395
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Future observation,NA,numeric,mean,18.608.734.939.759
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Future observation,NA,numeric,sd,138.963.230.877.675
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,24
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,144.578.313.253.012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,56
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,337.349.397.590.361
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Alcoholism,binary,count,15
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,903.614.457.831.325
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Stds,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Stds,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Hypertension,binary,count,23
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,13.855.421.686.747
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Hiv,binary,count,8
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Hiv,binary,percentage,481.927.710.843.374
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,301.204.819.277.108
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Diabetes,binary,count,18
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,108.433.734.939.759
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Fattyliver,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,sex,Male,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Number subjects,NA,numeric,count,56
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Number records,NA,NA,count,56
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Cohort start date,NA,date,min,04/01/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Cohort start date,NA,date,q05,11/01/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Cohort start date,NA,date,q25,24/02/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Cohort start date,NA,date,median,16/05/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Cohort start date,NA,date,q75,31/07/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Cohort start date,NA,date,q95,06/11/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Cohort start date,NA,date,max,25/11/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Cohort end date,NA,date,min,07/07/2012
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Cohort end date,NA,date,q05,20/01/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Cohort end date,NA,date,q25,02/07/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Cohort end date,NA,date,median,23/04/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Cohort end date,NA,date,q75,03/12/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Cohort end date,NA,date,q95,16/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Cohort end date,NA,date,max,16/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Sex,Female,categorical,count,16
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Sex,Female,categorical,percentage,285.714.285.714.286
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Sex,Male,categorical,count,40
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Sex,Male,categorical,percentage,714.285.714.285.714
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Age,NA,numeric,min,18
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Age,NA,numeric,q05,26.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Age,NA,numeric,q25,39.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Age,NA,numeric,median,49.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Age,NA,numeric,q75,57.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Age,NA,numeric,q95,77.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Age,NA,numeric,max,82
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Age,NA,numeric,mean,493.571.428.571.429
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Age,NA,numeric,sd,142.923.101.656.146
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Prior observation,NA,numeric,min,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Prior observation,NA,numeric,q05,11.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Prior observation,NA,numeric,q25,284.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Prior observation,NA,numeric,median,2144
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Prior observation,NA,numeric,q75,2560
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Prior observation,NA,numeric,q95,2698.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Prior observation,NA,numeric,max,2744
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Prior observation,NA,numeric,mean,161.648.214.285.714
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Prior observation,NA,numeric,sd,107.953.527.023.221
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Future observation,NA,numeric,min,67
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Future observation,NA,numeric,q05,162
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Future observation,NA,numeric,q25,1495.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Future observation,NA,numeric,median,3958.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Future observation,NA,numeric,q75,4213.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Future observation,NA,numeric,q95,4368
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Future observation,NA,numeric,max,4395
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Future observation,NA,numeric,mean,294.416.071.428.571
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Future observation,NA,numeric,sd,16.078.422.896.064
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,107.142.857.142.857
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,13
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,232.142.857.142.857
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Alcoholism,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Stds,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Stds,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Hypertension,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Hiv,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Hiv,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Diabetes,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Fattyliver,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2012,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Number subjects,NA,numeric,count,34
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Number records,NA,NA,count,34
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Cohort start date,NA,date,min,17/01/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Cohort start date,NA,date,q05,18/01/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Cohort start date,NA,date,q25,08/03/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Cohort start date,NA,date,median,12/06/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Cohort start date,NA,date,q75,14/09/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Cohort start date,NA,date,q95,12/12/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Cohort start date,NA,date,max,20/12/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Cohort end date,NA,date,min,21/06/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Cohort end date,NA,date,q05,20/10/2013
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Cohort end date,NA,date,q25,20/07/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Cohort end date,NA,date,median,28/09/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Cohort end date,NA,date,q75,06/11/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Cohort end date,NA,date,q95,05/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Cohort end date,NA,date,max,16/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Sex,Female,categorical,count,9
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Sex,Female,categorical,percentage,264.705.882.352.941
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Sex,Male,categorical,count,25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Sex,Male,categorical,percentage,735.294.117.647.059
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Age,NA,numeric,min,32
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Age,NA,numeric,q05,39.65
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Age,NA,numeric,q25,47
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Age,NA,numeric,median,51
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Age,NA,numeric,q75,57.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Age,NA,numeric,q95,65
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Age,NA,numeric,max,65
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Age,NA,numeric,mean,517.647.058.823.529
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Age,NA,numeric,sd,833.051.645.795.913
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Prior observation,NA,numeric,min,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Prior observation,NA,numeric,q05,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Prior observation,NA,numeric,q25,41.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Prior observation,NA,numeric,median,832.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Prior observation,NA,numeric,q75,2927.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Prior observation,NA,numeric,q95,3141.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Prior observation,NA,numeric,max,3244
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Prior observation,NA,numeric,mean,143.841.176.470.588
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Prior observation,NA,numeric,sd,140.845.462.524.447
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Future observation,NA,numeric,min,71
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Future observation,NA,numeric,q05,107.7
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Future observation,NA,numeric,q25,1093
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Future observation,NA,numeric,median,2881.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Future observation,NA,numeric,q75,3844.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Future observation,NA,numeric,q95,3963.95
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Future observation,NA,numeric,max,4001
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Future observation,NA,numeric,mean,245.035.294.117.647
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Future observation,NA,numeric,sd,146.161.035.893.795
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,14
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,411.764.705.882.353
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Alcoholism,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Stds,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Stds,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Hypertension,binary,count,6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,176.470.588.235.294
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Hiv,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Hiv,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Diabetes,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Fattyliver,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2013,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Number subjects,NA,numeric,count,28
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Number records,NA,NA,count,28
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Cohort start date,NA,date,min,07/01/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Cohort start date,NA,date,q05,13/01/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Cohort start date,NA,date,q25,19/02/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Cohort start date,NA,date,median,15/05/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Cohort start date,NA,date,q75,30/08/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Cohort start date,NA,date,q95,01/11/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Cohort start date,NA,date,max,25/11/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Cohort end date,NA,date,min,11/10/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Cohort end date,NA,date,q05,22/12/2014
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Cohort end date,NA,date,q25,23/08/2017
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Cohort end date,NA,date,median,18/08/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Cohort end date,NA,date,q75,20/09/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Cohort end date,NA,date,q95,07/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Cohort end date,NA,date,max,13/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Sex,Female,categorical,count,11
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Sex,Female,categorical,percentage,392.857.142.857.143
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Sex,Male,categorical,count,17
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Sex,Male,categorical,percentage,607.142.857.142.857
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Age,NA,numeric,min,23
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Age,NA,numeric,q05,24.35
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Age,NA,numeric,q25,34
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Age,NA,numeric,median,51.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Age,NA,numeric,q75,60.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Age,NA,numeric,q95,67.65
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Age,NA,numeric,max,68
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Age,NA,numeric,mean,48.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Age,NA,numeric,sd,150.348.360.914.343
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Prior observation,NA,numeric,min,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Prior observation,NA,numeric,q05,4.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Prior observation,NA,numeric,q25,106.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Prior observation,NA,numeric,median,1511
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Prior observation,NA,numeric,q75,2387.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Prior observation,NA,numeric,q95,3275.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Prior observation,NA,numeric,max,3352
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Prior observation,NA,numeric,mean,147.485.714.285.714
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Prior observation,NA,numeric,sd,120.108.536.453.911
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Future observation,NA,numeric,min,83
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Future observation,NA,numeric,q05,147.2
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Future observation,NA,numeric,q25,1270.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Future observation,NA,numeric,median,3134.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Future observation,NA,numeric,q75,3354
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Future observation,NA,numeric,q95,3561.6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Future observation,NA,numeric,max,3625
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Future observation,NA,numeric,mean,234.285.714.285.714
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Future observation,NA,numeric,sd,126.572.437.799.791
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,214.285.714.285.714
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,8
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,285.714.285.714.286
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Alcoholism,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Stds,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Stds,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Hypertension,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Hiv,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Hiv,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Diabetes,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Fattyliver,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2014,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Number subjects,NA,numeric,count,24
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Number records,NA,NA,count,24
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Cohort start date,NA,date,min,08/01/2015
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Cohort start date,NA,date,q05,17/01/2015
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Cohort start date,NA,date,q25,21/04/2015
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Cohort start date,NA,date,median,18/07/2015
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Cohort start date,NA,date,q75,01/09/2015
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Cohort start date,NA,date,q95,07/11/2015
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Cohort start date,NA,date,max,23/11/2015
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Cohort end date,NA,date,min,02/06/2015
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Cohort end date,NA,date,q05,18/01/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Cohort end date,NA,date,q25,15/06/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Cohort end date,NA,date,median,01/10/2019
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Cohort end date,NA,date,q75,17/09/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Cohort end date,NA,date,q95,07/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Cohort end date,NA,date,max,16/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Sex,Female,categorical,count,9
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Sex,Female,categorical,percentage,37.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Sex,Male,categorical,count,15
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Sex,Male,categorical,percentage,62.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Age,NA,numeric,min,26
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Age,NA,numeric,q05,29.15
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Age,NA,numeric,q25,41.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Age,NA,numeric,median,50.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Age,NA,numeric,q75,65.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Age,NA,numeric,q95,78.4
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Age,NA,numeric,max,79
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Age,NA,numeric,mean,534.583.333.333.333
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Age,NA,numeric,sd,163.387.487.325.354
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Prior observation,NA,numeric,min,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Prior observation,NA,numeric,q05,1.45
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Prior observation,NA,numeric,q25,59.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Prior observation,NA,numeric,median,2019.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Prior observation,NA,numeric,q75,3626.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Prior observation,NA,numeric,q95,3897.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Prior observation,NA,numeric,max,3931
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Prior observation,NA,numeric,mean,2044.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Prior observation,NA,numeric,sd,163.330.612.296.175
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Future observation,NA,numeric,min,63
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Future observation,NA,numeric,q05,95.7
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Future observation,NA,numeric,q25,370.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Future observation,NA,numeric,median,1496.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Future observation,NA,numeric,q75,2933.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Future observation,NA,numeric,q95,3113.2
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Future observation,NA,numeric,max,3174
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Future observation,NA,numeric,mean,1.692.875
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Future observation,NA,numeric,sd,124.901.712.010.058
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Alcoholism,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Stds,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Stds,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Hypertension,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Hiv,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Hiv,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Diabetes,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Fattyliver,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2015,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Number subjects,NA,numeric,count,33
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Number records,NA,NA,count,33
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Cohort start date,NA,date,min,10/01/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Cohort start date,NA,date,q05,16/01/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Cohort start date,NA,date,q25,25/02/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Cohort start date,NA,date,median,24/05/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Cohort start date,NA,date,q75,07/09/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Cohort start date,NA,date,q95,12/11/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Cohort start date,NA,date,max,01/12/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Cohort end date,NA,date,min,29/07/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Cohort end date,NA,date,q05,11/09/2016
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Cohort end date,NA,date,q25,02/11/2018
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Cohort end date,NA,date,median,18/04/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Cohort end date,NA,date,q75,21/07/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Cohort end date,NA,date,q95,17/12/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Cohort end date,NA,date,max,30/12/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Sex,Female,categorical,count,7
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Sex,Female,categorical,percentage,212.121.212.121.212
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Sex,Male,categorical,count,26
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Sex,Male,categorical,percentage,787.878.787.878.788
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Age,NA,numeric,min,25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Age,NA,numeric,q05,28.4
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Age,NA,numeric,q25,46
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Age,NA,numeric,median,59
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Age,NA,numeric,q75,68
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Age,NA,numeric,q95,77.4
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Age,NA,numeric,max,91
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Age,NA,numeric,mean,554.848.484.848.485
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Age,NA,numeric,sd,163.976.393.349.035
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Prior observation,NA,numeric,min,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Prior observation,NA,numeric,q05,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Prior observation,NA,numeric,q25,241
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Prior observation,NA,numeric,median,2200
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Prior observation,NA,numeric,q75,3835
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Prior observation,NA,numeric,q95,4055
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Prior observation,NA,numeric,max,4159
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Prior observation,NA,numeric,mean,198.148.484.848.485
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Prior observation,NA,numeric,sd,169.670.213.431.108
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Future observation,NA,numeric,min,67
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Future observation,NA,numeric,q05,124.4
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Future observation,NA,numeric,q25,866
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Future observation,NA,numeric,median,1760
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Future observation,NA,numeric,q75,2556
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Future observation,NA,numeric,q95,2773.6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Future observation,NA,numeric,max,2861
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Future observation,NA,numeric,mean,1601
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Future observation,NA,numeric,sd,997.708.656.121.615
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,181.818.181.818.182
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,12
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,363.636.363.636.364
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Alcoholism,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Stds,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Stds,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Hypertension,binary,count,5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,151.515.151.515.152
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Hiv,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Hiv,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Diabetes,binary,count,5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,151.515.151.515.152
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Fattyliver,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2016,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Number subjects,NA,numeric,count,25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Number records,NA,NA,count,25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Cohort start date,NA,date,min,04/01/2017
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Cohort start date,NA,date,q05,13/01/2017
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Cohort start date,NA,date,q25,06/03/2017
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Cohort start date,NA,date,median,09/06/2017
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Cohort start date,NA,date,q75,26/09/2017
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Cohort start date,NA,date,q95,20/11/2017
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Cohort start date,NA,date,max,11/12/2017
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Cohort end date,NA,date,min,15/05/2017
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Cohort end date,NA,date,q05,26/01/2018
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Cohort end date,NA,date,q25,15/09/2019
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Cohort end date,NA,date,median,29/07/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Cohort end date,NA,date,q75,18/12/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Cohort end date,NA,date,q95,05/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Cohort end date,NA,date,max,16/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Sex,Female,categorical,count,7
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Sex,Female,categorical,percentage,28
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Sex,Male,categorical,count,18
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Sex,Male,categorical,percentage,72
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Age,NA,numeric,min,28
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Age,NA,numeric,q05,30.6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Age,NA,numeric,q25,41
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Age,NA,numeric,median,56
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Age,NA,numeric,q75,66
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Age,NA,numeric,q95,76.2
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Age,NA,numeric,max,77
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Age,NA,numeric,mean,53.64
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Age,NA,numeric,sd,152.202.715.700.695
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Prior observation,NA,numeric,min,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Prior observation,NA,numeric,q05,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Prior observation,NA,numeric,q25,96
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Prior observation,NA,numeric,median,1045
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Prior observation,NA,numeric,q75,4149
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Prior observation,NA,numeric,q95,4581.6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Prior observation,NA,numeric,max,4640
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Prior observation,NA,numeric,mean,1895.08
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Prior observation,NA,numeric,sd,19.510.716.696.216
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Future observation,NA,numeric,min,90
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Future observation,NA,numeric,q05,172
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Future observation,NA,numeric,q25,880
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Future observation,NA,numeric,median,2195
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Future observation,NA,numeric,q75,2305
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Future observation,NA,numeric,q95,2442.8
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Future observation,NA,numeric,max,2513
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Future observation,NA,numeric,mean,1663.04
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Future observation,NA,numeric,sd,864.687.876.249.768
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,11
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,44
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Alcoholism,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Stds,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Stds,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Hypertension,binary,count,7
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,28
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Hiv,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Hiv,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Diabetes,binary,count,6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,24
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Fattyliver,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2017,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Number subjects,NA,numeric,count,7
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Number records,NA,NA,count,7
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Cohort start date,NA,date,min,09/01/2018
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Cohort start date,NA,date,q05,18/01/2018
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Cohort start date,NA,date,q25,20/02/2018
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Cohort start date,NA,date,median,04/06/2018
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Cohort start date,NA,date,q75,12/07/2018
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Cohort start date,NA,date,q95,13/08/2018
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Cohort start date,NA,date,max,22/08/2018
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Cohort end date,NA,date,min,21/02/2020
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Cohort end date,NA,date,q05,26/05/2020
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Cohort end date,NA,date,q25,20/02/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Cohort end date,NA,date,median,19/08/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Cohort end date,NA,date,q75,25/11/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Cohort end date,NA,date,q95,23/12/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Cohort end date,NA,date,max,01/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Sex,Female,categorical,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Sex,Female,categorical,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Sex,Male,categorical,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Sex,Male,categorical,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Age,NA,numeric,min,39
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Age,NA,numeric,q05,40.8
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Age,NA,numeric,q25,50
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Age,NA,numeric,median,64
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Age,NA,numeric,q75,66.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Age,NA,numeric,q95,79.6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Age,NA,numeric,max,85
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Age,NA,numeric,mean,601.428.571.428.571
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Age,NA,numeric,sd,153.669.403.962.811
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Prior observation,NA,numeric,min,3
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Prior observation,NA,numeric,q05,3.3
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Prior observation,NA,numeric,q25,4.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Prior observation,NA,numeric,median,568
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Prior observation,NA,numeric,q75,2260.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Prior observation,NA,numeric,q95,3931.3
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Prior observation,NA,numeric,max,4603
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Prior observation,NA,numeric,mean,138.628.571.428.571
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Prior observation,NA,numeric,sd,174.637.297.603.592
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Future observation,NA,numeric,min,719
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Future observation,NA,numeric,q05,786.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Future observation,NA,numeric,q25,967.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Future observation,NA,numeric,median,1874
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Future observation,NA,numeric,q75,2019
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Future observation,NA,numeric,q95,2161.4
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Future observation,NA,numeric,max,2183
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Future observation,NA,numeric,mean,153.557.142.857.143
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Future observation,NA,numeric,sd,623.342.564.230.097
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Alcoholism,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Stds,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Stds,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Hypertension,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Hiv,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Hiv,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Diabetes,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Fattyliver,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2018,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Number subjects,NA,numeric,count,10
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Number records,NA,NA,count,10
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Cohort start date,NA,date,min,31/01/2019
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Cohort start date,NA,date,q05,15/02/2019
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Cohort start date,NA,date,q25,31/03/2019
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Cohort start date,NA,date,median,25/06/2019
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Cohort start date,NA,date,q75,21/08/2019
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Cohort start date,NA,date,q95,01/11/2019
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Cohort start date,NA,date,max,13/12/2019
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Cohort end date,NA,date,min,31/07/2020
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Cohort end date,NA,date,q05,19/09/2020
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Cohort end date,NA,date,q25,30/01/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Cohort end date,NA,date,median,11/03/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Cohort end date,NA,date,q75,19/10/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Cohort end date,NA,date,q95,28/12/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Cohort end date,NA,date,max,01/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Sex,Female,categorical,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Sex,Female,categorical,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Sex,Male,categorical,count,7
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Sex,Male,categorical,percentage,70
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Age,NA,numeric,min,35
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Age,NA,numeric,q05,39.95
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Age,NA,numeric,q25,47.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Age,NA,numeric,median,50
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Age,NA,numeric,q75,53.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Age,NA,numeric,q95,70.1
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Age,NA,numeric,max,71
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Age,NA,numeric,mean,52.2
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Age,NA,numeric,sd,106.854.002.160.788
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Prior observation,NA,numeric,min,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Prior observation,NA,numeric,q05,2.7
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Prior observation,NA,numeric,q25,38
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Prior observation,NA,numeric,median,651
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Prior observation,NA,numeric,q75,4165.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Prior observation,NA,numeric,q95,4919.6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Prior observation,NA,numeric,max,5123
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Prior observation,NA,numeric,mean,1870.1
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Prior observation,NA,numeric,sd,220.318.110.669.298
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Future observation,NA,numeric,min,333
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Future observation,NA,numeric,q05,405
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Future observation,NA,numeric,q25,612.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Future observation,NA,numeric,median,1231
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Future observation,NA,numeric,q75,1623.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Future observation,NA,numeric,q95,1734.2
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Future observation,NA,numeric,max,1763
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Future observation,NA,numeric,mean,1129.3
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Future observation,NA,numeric,sd,550.359.286.688.654
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Alcoholism,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Stds,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Stds,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Hypertension,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Hiv,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Hiv,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Diabetes,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Fattyliver,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2019,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Number subjects,NA,numeric,count,5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Number records,NA,NA,count,5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Cohort start date,NA,date,min,07/03/2020
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Cohort start date,NA,date,q05,09/03/2020
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Cohort start date,NA,date,q25,19/03/2020
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Cohort start date,NA,date,median,11/04/2020
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Cohort start date,NA,date,q75,07/07/2020
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Cohort start date,NA,date,q95,04/08/2020
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Cohort start date,NA,date,max,11/08/2020
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Cohort end date,NA,date,min,17/07/2020
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Cohort end date,NA,date,q05,15/10/2020
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Cohort end date,NA,date,q25,08/10/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Cohort end date,NA,date,median,07/03/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Cohort end date,NA,date,q75,03/03/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Cohort end date,NA,date,q95,03/10/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Cohort end date,NA,date,max,25/11/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Sex,Female,categorical,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Sex,Female,categorical,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Sex,Male,categorical,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Sex,Male,categorical,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Age,NA,numeric,min,50
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Age,NA,numeric,q05,53.2
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Age,NA,numeric,q25,66
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Age,NA,numeric,median,67
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Age,NA,numeric,q75,70
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Age,NA,numeric,q95,70
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Age,NA,numeric,max,70
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Age,NA,numeric,mean,64.6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Age,NA,numeric,sd,835.463.942.968.217
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Prior observation,NA,numeric,min,1183
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Prior observation,NA,numeric,q05,1439.6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Prior observation,NA,numeric,q25,2466
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Prior observation,NA,numeric,median,4355
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Prior observation,NA,numeric,q75,5401
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Prior observation,NA,numeric,q95,5491.4
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Prior observation,NA,numeric,max,5514
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Prior observation,NA,numeric,mean,3783.8
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Prior observation,NA,numeric,sd,189.973.384.978.002
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Future observation,NA,numeric,min,120
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Future observation,NA,numeric,q05,187.6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Future observation,NA,numeric,q25,458
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Future observation,NA,numeric,median,573
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Future observation,NA,numeric,q75,1091
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Future observation,NA,numeric,q95,1276.6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Future observation,NA,numeric,max,1323
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Future observation,NA,numeric,mean,713
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Future observation,NA,numeric,sd,487.662.280.682.031
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Alcoholism,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Stds,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Stds,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Hypertension,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Hiv,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Hiv,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Diabetes,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Fattyliver,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2020,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Number subjects,NA,numeric,count,8
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Number records,NA,NA,count,8
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Cohort start date,NA,date,min,07/01/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Cohort start date,NA,date,q05,21/01/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Cohort start date,NA,date,q25,04/03/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Cohort start date,NA,date,median,19/04/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Cohort start date,NA,date,q75,14/07/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Cohort start date,NA,date,q95,09/09/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Cohort start date,NA,date,max,14/09/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Cohort end date,NA,date,min,05/10/2021
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Cohort end date,NA,date,q05,30/06/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Cohort end date,NA,date,q25,27/11/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Cohort end date,NA,date,median,24/12/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Cohort end date,NA,date,q75,13/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Cohort end date,NA,date,q95,16/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Cohort end date,NA,date,max,16/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Sex,Female,categorical,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Sex,Female,categorical,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Sex,Male,categorical,count,7
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Sex,Male,categorical,percentage,87.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Age,NA,numeric,min,55
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Age,NA,numeric,q05,56.4
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Age,NA,numeric,q25,59
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Age,NA,numeric,median,61.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Age,NA,numeric,q75,67.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Age,NA,numeric,q95,69.3
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Age,NA,numeric,max,70
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Age,NA,numeric,mean,62.625
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Age,NA,numeric,sd,526.273.964.503.552
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Prior observation,NA,numeric,min,24
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Prior observation,NA,numeric,q05,29.6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Prior observation,NA,numeric,q25,40.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Prior observation,NA,numeric,median,2630
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Prior observation,NA,numeric,q75,5724.75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Prior observation,NA,numeric,q95,5838.35
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Prior observation,NA,numeric,max,5866
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Prior observation,NA,numeric,mean,2840.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Prior observation,NA,numeric,sd,271.925.697.571.965
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Future observation,NA,numeric,min,147
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Future observation,NA,numeric,q05,386.4
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Future observation,NA,numeric,q25,845.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Future observation,NA,numeric,median,974
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Future observation,NA,numeric,q75,1024.5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Future observation,NA,numeric,q95,1041.25
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Future observation,NA,numeric,max,1043
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Future observation,NA,numeric,mean,859.625
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Future observation,NA,numeric,sd,299.905.193.352.833
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Alcoholism,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Stds,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Stds,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Hypertension,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Hiv,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Hiv,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Diabetes,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Fattyliver,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2021,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Number subjects,NA,numeric,count,5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Number records,NA,NA,count,5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Cohort start date,NA,date,min,10/06/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Cohort start date,NA,date,q05,11/06/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Cohort start date,NA,date,q25,17/06/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Cohort start date,NA,date,median,31/07/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Cohort start date,NA,date,q75,29/08/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Cohort start date,NA,date,q95,08/10/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Cohort start date,NA,date,max,18/10/2022
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Cohort end date,NA,date,min,04/09/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Cohort end date,NA,date,q05,05/09/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Cohort end date,NA,date,q25,11/09/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Cohort end date,NA,date,median,10/11/2023
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Cohort end date,NA,date,q75,06/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Cohort end date,NA,date,q95,11/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Cohort end date,NA,date,max,12/01/2024
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Sex,Female,categorical,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Sex,Female,categorical,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Sex,Male,categorical,count,5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Sex,Male,categorical,percentage,100
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Age,NA,numeric,min,31
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Age,NA,numeric,q05,36.4
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Age,NA,numeric,q25,58
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Age,NA,numeric,median,58
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Age,NA,numeric,q75,68
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Age,NA,numeric,q95,73.6
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Age,NA,numeric,max,75
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Age,NA,numeric,mean,58
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Age,NA,numeric,sd,167.182.534.973.005
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Prior observation,NA,numeric,min,212
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Prior observation,NA,numeric,q05,265.8
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Prior observation,NA,numeric,q25,481
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Prior observation,NA,numeric,median,1488
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Prior observation,NA,numeric,q75,5190
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Prior observation,NA,numeric,q95,5445.2
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Prior observation,NA,numeric,max,5509
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Prior observation,NA,numeric,mean,2576
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Prior observation,NA,numeric,sd,257.860.184.984.034
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Future observation,NA,numeric,min,328
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Future observation,NA,numeric,q05,342.4
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Future observation,NA,numeric,q25,400
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Future observation,NA,numeric,median,438
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Future observation,NA,numeric,q75,574
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Future observation,NA,numeric,q95,574.8
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Future observation,NA,numeric,max,575
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Future observation,NA,numeric,mean,463
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Future observation,NA,numeric,sd,109.183.332.061.263
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Cirrhosis,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Cirrhosis,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Cardiodisorder,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Cardiodisorder,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Alcoholism,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Alcoholism,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Stds,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Stds,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Hypertension,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Hypertension,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Hiv,binary,count,<5
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Hiv,binary,percentage,NA
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Kidneydisease,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Kidneydisease,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Diabetes,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Diabetes,binary,percentage,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Fattyliver,binary,count,0
+omop,summarised_characteristics,cohort_name,Objective3 hepatitisb 2,calendarYear,2022,Comorbidities flag from -365 to 0,Fattyliver,binary,percentage,0

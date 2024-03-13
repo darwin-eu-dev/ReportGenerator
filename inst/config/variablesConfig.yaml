@@ -21,6 +21,7 @@ IncidencePrevalence:
     - reason
     - excluded_records
     - excluded_subjects
+    - denominator_cohort_name
   prevalence_attrition:
     names:
     - number_records
@@ -29,6 +30,7 @@ IncidencePrevalence:
     - reason
     - excluded_records
     - excluded_subjects
+    - denominator_cohort_name
 TreatmentPatterns:
   treatmentPathways:
     names:

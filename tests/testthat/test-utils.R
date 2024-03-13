@@ -9,7 +9,7 @@ test_that("getItemsList all", {
              "summarised_characteristics",
              "Summarised Large Scale Characteristics")
   menuList <- getItemsList(items)
-  expect_equal(length(menuList), 14)
+  expect_equal(length(menuList), 13)
 })
 
 test_that("getItemsList attrition both", {
@@ -49,8 +49,7 @@ test_that("getItemsList only prevalence", {
 test_that("getItemsList treatmentPatterns", {
   items <- c("treatmentPathways")
   menuList <- getItemsList(items)
-  expect_equal(menuList, c("Sunburst Plot - TreatmentPatterns",
-                           "Sankey Diagram - TreatmentPatterns"))
+  expect_equal(menuList, c("Treatment Pathways Interactive Plots"))
 })
 
 test_that("getItemsList joining to apps", {
@@ -61,7 +60,7 @@ test_that("getItemsList joining to apps", {
   menuListTP <- getItemsList(itemsTP)
   itemsList$objects[["items"]] <- c(itemsList$objects[["items"]], menuListIP)
   itemsList$objects[["items"]] <- c(itemsList$objects[["items"]], menuListTP)
-  expect_equal(length(itemsList$objects[["items"]]), 12)
+  expect_equal(length(itemsList$objects[["items"]]), 11)
 })
 
 test_that("getItemConfig for getting a function", {
@@ -94,7 +93,7 @@ test_that("addPreviewItemType happy flow", {
                                previewItemType = "Facet by outcome")
 
   expect_equal(class(result), "character")
-  expect_equal(result, "plotIncidence(incidence_estimates, colour = 'cdm_name', facet = 'outcome_cohort_name')")
+  expect_equal(result, "plotIncidence(incidence_estimates, colour = 'cdm_name', facet = 'outcome_cohort_name', ribbon, options)")
 
   # type might be empty, set default
   result <- addPreviewItemType(previewItemString = getItemConfig(input = "title",
@@ -103,7 +102,7 @@ test_that("addPreviewItemType happy flow", {
                                previewItemType = NULL)
 
   expect_equal(class(result), "character")
-  expect_equal(result, "plotIncidence(incidence_estimates, colour = 'cdm_name', facet = 'outcome_cohort_name')")
+  expect_equal(result, "plotIncidence(incidence_estimates, colour = 'cdm_name', facet = 'outcome_cohort_name', ribbon, options)")
 })
 
 
@@ -128,7 +127,7 @@ test_that("PatientProfiles Both Summaries", {
 test_that("PatientProfiles Summary", {
   items <- c("summarised_characteristics")
   menuList <- getItemsList(items)
-  expect_equal(menuList, "Summarised Characteristics")
+  expect_equal(menuList, "summarised_characteristics")
 })
 
 test_that("PatientProfiles LSC", {

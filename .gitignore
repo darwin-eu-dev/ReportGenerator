@@ -42,3 +42,6 @@ sankeyDiagram.html
 renv.lock
 renv/
 TASKS.R
+TRUE
+sunburstPlot.html
+sankeyDiagram.html

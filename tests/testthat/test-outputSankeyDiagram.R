@@ -11,8 +11,13 @@ test_that("void", {
 })
 
 test_that("Sankey created file", {
+
+  outputFile <- paste0(tempdir(), "sankeyPlot.html")
   outputSankey <- TreatmentPatterns::createSankeyDiagram(
     treatmentPathways = data,
     groupCombinations = TRUE)
+
+  htmlwidgets::saveWidget(outputSankey, outputFile)
+
   expect_true(!is.null(outputSankey))
 })

@@ -152,6 +152,38 @@ addPreviewItemTypeAge <- function(previewItemString, previewItemType) {
   return(result)
 }
 
+#' Adds the given ribbon to the current previewItem string.
+#'
+#' @param previewItemString string representing the previewItem
+#' @param ribbon ribbon value
+#'
+#' @return the updated preview item string
+addPreviewItemRibbon <- function(previewItemString, ribbon) {
+  ribbonStr <- paste0("ribbon = ", ribbon)
+  return(gsub("ribbon", ribbonStr, previewItemString))
+}
+
+#' Adds plot options to the current previewItem string.
+#'
+#' @param previewItemString string representing the previewItem
+#' @param showCI if confidence interval should be shown
+#' @param stackPlots if subplots should be stacked (on top of each other) or not
+#'
+#' @return the updated preview item string
+addPlotOptions <- function(previewItemString, showCI, stackPlots) {
+  optionsStr <- "options = list("
+  showCI <- as.logical(showCI)
+  stackPlots <- as.logical(stackPlots)
+  if (!showCI) {
+    optionsStr <- paste0(optionsStr, "hideConfidenceInterval = TRUE")
+  }
+  if (stackPlots) {
+    optionsStr <- paste0(optionsStr, ifelse(!showCI, ",", ""), "facetNcols = 1")
+  }
+  optionsStr <- paste0(optionsStr, ")")
+  return(gsub("options", optionsStr, previewItemString))
+}
+
 #' Export list of package results
 #'
 #' @param resultList Named list with results from a darwin package
@@ -222,4 +254,38 @@ getRandomId <- function() {
   chars <- c(0:9, letters, LETTERS)
   randomId <- stringr::str_c(sample(chars, 4, replace = TRUE) , collapse = "")
   return(randomId)
+}
+
+createCaptionInput <- function(inputId, value, height = "50px") {
+  textAreaInput(inputId = inputId,
+                label = "Caption",
+                value = value,
+                width = '100%',
+                height = height)
+}
+
+saveGGPlot <- function(file, plot, height = 10, width = 20, dpi = 300) {
+  ggplot2::ggsave(file,
+                  plot = plot,
+                  device = "png",
+                  height = height,
+                  width = width,
+                  dpi = dpi,
+                  units = "cm")
+}
+
+createAddItemToReportUI <- function(id) {
+  tagList(column(2, shiny::HTML("<label class = 'control-label'>&#8205;</label>"),
+                    shiny::br(), actionButton(id, "Add item to report")))
+}
+
+createDownloadPlotUI <- function(ns) {
+  tagList(column(2, div("height:", style = "display: inline-block; font-weight: bold; margin-right: 5px;"),
+                 div(style = "display: inline-block;margin-top:5px", textInput(ns("plotHeight"), "", 10, width = "50px"))),
+          column(2, div("width:", style = "display: inline-block; font-weight: bold; margin-right: 5px;"),
+                 div(style = "display: inline-block;margin-top:5px", textInput(ns("plotWidth"), "", 20, width = "50px"))),
+          column(2, div("dpi:", style = "display: inline-block; font-weight: bold; margin-right: 5px;"),
+                 div(style = "display: inline-block;margin-top:5px", textInput(ns("plotDpi"), "", 300, width = "50px"))),
+          column(2, tagList(shiny::HTML("<label class = 'control-label'>&#8205;</label>"),
+                            shiny::br(), downloadButton(ns("downloadFigure"), "Download Plot"))))
 }
