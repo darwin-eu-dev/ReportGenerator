@@ -65,14 +65,14 @@ reportGenerator <- function() {
         ),
         tabPanel("Generate report",
                  fluidRow(
-                   column(width = 6,
+                   column(width = 9,
                           h2("Report items"),
                           DTOutput("dataReportMenu"),
-                          # verbatimTextOutput("dataReportMenu"),
                           tags$br(),
                           tags$head(tags$style(".dlReportBtn{ margin-left:15px;margin-right:15px; margin-top:25px; color:#444 !important; }")),
                           splitLayout(
                             downloadButton("generateReport", "Generate Report", class = "dlReportBtn"),
+                            actionButton("deleteReportRows", "Delete selected rows", class = "dlReportBtn"),
                             downloadButton("saveReportData", "Save report items", class = "dlReportBtn"),
                             fileInput("loadReportItems",
                                       "Load report items",
@@ -437,6 +437,17 @@ reportGenerator <- function() {
                       options = list(dom = 't',
                                      order = list(list(0, 'asc')),
                                      rowReorder = TRUE))
+      }
+    })
+
+    observeEvent(input$deleteReportRows,{
+      if (!is.null(input$dataReportMenu_rows_selected)) {
+        lapply(sort(input$dataReportMenu_rows_selected, decreasing = T), FUN = function(rowId) {
+          dataReport$objects[[rowId]] <- NULL
+        })
+        if (length(dataReport$objects) == 0) {
+          dataReport$objects <- NULL
+        }
       }
     })
 
